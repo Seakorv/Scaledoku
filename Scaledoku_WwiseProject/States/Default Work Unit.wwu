@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45596923-53CA-4315-BA38-3EDBC02FE7E5}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{45596923-53CA-4315-BA38-3EDBC02FE7E5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="BGMusicStates" ID="{A01AB48A-02E7-4722-A797-7D7C6117244E}" ShortID="513000876">
+					<ChildrenList>
+						<StateGroup Name="CompletionProgress" ID="{65086BA7-B465-40E6-8771-F902B65D8C78}">
+							<ChildrenList>
+								<State Name="None" ID="{C0E22502-EBBD-4A40-A7D8-6C6CD132CFC3}"/>
+								<State Name="Start" ID="{FBB56D30-BA72-488E-939E-3E7616604D80}"/>
+								<State Name="ZeroP" ID="{128AA8B3-D7FF-4E0E-8BD9-0F347D6BBDB3}"/>
+								<State Name="FirstProg" ID="{88881E4B-FB30-40C0-AADA-0ACDBA82C6BC}"/>
+								<State Name="SecondProg" ID="{E3CF0167-0B7E-43D2-898C-8537F077C86F}"/>
+								<State Name="ThirdProg" ID="{1B78801A-6510-4F53-9F24-8E0016BEC25A}"/>
+								<State Name="FourthProg" ID="{43166D6B-0823-4B3F-B2C2-46F95ECD1E94}"/>
+								<State Name="FifthProg" ID="{A93109F2-B13D-4C5F-80B7-CEF9A50326E9}"/>
+								<State Name="SixthProg" ID="{326BE8BC-4721-42F9-BA4E-F0D9974C1AA8}"/>
+								<State Name="SeventhProg" ID="{9FA92145-1E9E-4EAC-9498-9CB1AB5480C5}"/>
+								<State Name="Outro" ID="{EAD7F86E-31EF-4F81-9A91-5E0EFE69809A}"/>
+								<State Name="Succes" ID="{98D67268-5D85-4910-863E-B044040B5F3B}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

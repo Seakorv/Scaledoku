@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{88CD29C1-1130-D549-CC01-A23D1E79DDD2}">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="79008035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fis2.wav</ShortName>
+					<CachePath>SFX/Fis2_A0ACD0AB.wem</CachePath>
+				</File>
+				<File Id="123551881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E2.wav</ShortName>
+					<CachePath>SFX/E2_460580FD.wem</CachePath>
+				</File>
+				<File Id="133994085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fis.wav</ShortName>
+					<CachePath>SFX/Fis_65BA1B6C.wem</CachePath>
+				</File>
+				<File Id="138421374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>D.wav</ShortName>
+					<CachePath>SFX/D_7BA7351E.wem</CachePath>
+				</File>
+				<File Id="181655638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E.wav</ShortName>
+					<CachePath>SFX/E_E62952CF.wem</CachePath>
+				</File>
+				<File Id="221983051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>F2.wav</ShortName>
+					<CachePath>SFX/F2_527E0E26.wem</CachePath>
+				</File>
+				<File Id="307607133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dis.wav</ShortName>
+					<CachePath>SFX/Dis_30F02976.wem</CachePath>
+				</File>
+				<File Id="535842724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B.wav</ShortName>
+					<CachePath>SFX/B_148E26E5.wem</CachePath>
+				</File>
+				<File Id="647069969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>F.wav</ShortName>
+					<CachePath>SFX/F_E9DC4970.wem</CachePath>
+				</File>
+				<File Id="663329771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>G.wav</ShortName>
+					<CachePath>SFX/G_81C8F4BB.wem</CachePath>
+				</File>
+				<File Id="830360556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cis.wav</ShortName>
+					<CachePath>SFX/Cis_476D27B9.wem</CachePath>
+				</File>
+				<File Id="830778631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C.wav</ShortName>
+					<CachePath>SFX/C_6F6E6061.wem</CachePath>
+				</File>
+				<File Id="863695872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gis.wav</ShortName>
+					<CachePath>SFX/Gis_69FAA163.wem</CachePath>
+				</File>
+				<File Id="945198133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ais.wav</ShortName>
+					<CachePath>SFX/Ais_8F726D90.wem</CachePath>
+				</File>
+				<File Id="1015377649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Erhe.wav</ShortName>
+					<CachePath>SFX/Erhe_25421316.wem</CachePath>
+				</File>
+				<File Id="1065819616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A.wav</ShortName>
+					<CachePath>SFX/A_BDB6EDB5.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1774091799" Name="Play_A" DurationType="OneShot" DurationMin="0.41000593" DurationMax="0.41000593">
+					<MediaRefs>
+						<MediaRef Id="1065819616"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3026643623" Name="Play_Ais" DurationType="OneShot" DurationMin="0.41414234" DurationMax="0.41414234">
+					<MediaRefs>
+						<MediaRef Id="945198133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091796" Name="Play_B" DurationType="OneShot" DurationMin="0.41828376" DurationMax="0.41828376">
+					<MediaRefs>
+						<MediaRef Id="535842724"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091797" Name="Play_C" DurationType="OneShot" DurationMin="0.4058595" DurationMax="0.4058595">
+					<MediaRefs>
+						<MediaRef Id="830778631"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2556576225" Name="Play_Cis" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
+					<MediaRefs>
+						<MediaRef Id="830360556"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091794" Name="Play_D" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
+					<MediaRefs>
+						<MediaRef Id="138421374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3092915550" Name="Play_Dis" DurationType="OneShot" DurationMin="0.41000092" DurationMax="0.41000092">
+					<MediaRefs>
+						<MediaRef Id="307607133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091795" Name="Play_E" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="181655638"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2313189339" Name="Play_E2" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="123551881"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3746009134" Name="Play_Erhe" DurationType="OneShot" DurationMin="0.67712826" DurationMax="0.67712826">
+					<MediaRefs>
+						<MediaRef Id="1015377649"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091792" Name="Play_F" DurationType="OneShot" DurationMin="0.39757663" DurationMax="0.39757663">
+					<MediaRefs>
+						<MediaRef Id="647069969"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2262856450" Name="Play_F2" DurationType="OneShot" DurationMin="0.40586445" DurationMax="0.40586445">
+					<MediaRefs>
+						<MediaRef Id="221983051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2891289960" Name="Play_Fis" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
+					<MediaRefs>
+						<MediaRef Id="133994085"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2998547082" Name="Play_Fis2" DurationType="OneShot" DurationMin="0.37686953" DurationMax="0.37686953">
+					<MediaRefs>
+						<MediaRef Id="79008035"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091793" Name="Play_G" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="663329771"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2421663725" Name="Play_Gis" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="863695872"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B2B305E5-52D6-62ED-208E-98EF11602F59}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="4243768110" Name="CompletionProgress">
+					<States>
+						<State Id="626838023" Name="Succes"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="884433284" Name="ThirdProg"/>
+						<State Id="1058504336" Name="SeventhProg"/>
+						<State Id="1281810935" Name="Start"/>
+						<State Id="1664902809" Name="SecondProg"/>
+						<State Id="1734000337" Name="ZeroP"/>
+						<State Id="1815936827" Name="SixthProg"/>
+						<State Id="3049823040" Name="FifthProg"/>
+						<State Id="3169234081" Name="FourthProg"/>
+						<State Id="3337710501" Name="FirstProg"/>
+						<State Id="4184794294" Name="Outro"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2511829303" Type="User" Language="SFX" Hash="{697E8F00-73E5-66E9-E856-B12AB6CA981B}">
+			<ShortName>Sudoku1BGMusic</ShortName>
+			<Path>Sudoku1BGMusic.bnk</Path>
+			<Media>
+				<File Id="91725319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Onnistuminen.wav</ShortName>
+					<CachePath>SFX/Onnistuminen_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="160234496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicFinalProg.wav</ShortName>
+					<CachePath>SFX/SudokuMusicFinalProg_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="164045800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicStart.wav</ShortName>
+					<CachePath>SFX/SudokuMusicStart_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="217968719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicB1.wav</ShortName>
+					<CachePath>SFX/SudokuMusicB1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="220578448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicThirdProg.wav</ShortName>
+					<CachePath>SFX/SudokuMusicThirdProg_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="356953970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicFirstProg.wav</ShortName>
+					<CachePath>SFX/SudokuMusicFirstProg_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="669935241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicFourthProg copy.wav</ShortName>
+					<CachePath>SFX/SudokuMusicFourthProg copy_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="702623806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicOutro.wav</ShortName>
+					<CachePath>SFX/SudokuMusicOutro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="938758917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicB2 copy.wav</ShortName>
+					<CachePath>SFX/SudokuMusicB2 copy_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="951666036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicSecondProg.wav</ShortName>
+					<CachePath>SFX/SudokuMusicSecondProg_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="953197324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicFourthProg.wav</ShortName>
+					<CachePath>SFX/SudokuMusicFourthProg_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="967612776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicB2.wav</ShortName>
+					<CachePath>SFX/SudokuMusicB2_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3335369946" Name="Sudoku1BG" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="669935241"/>
+						<MediaRef Id="938758917"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1281810935"/>
+							<MediaRefs>
+								<MediaRef Id="164045800"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="3337710501"/>
+							<MediaRefs>
+								<MediaRef Id="356953970"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1664902809"/>
+							<MediaRefs>
+								<MediaRef Id="951666036"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="884433284"/>
+							<MediaRefs>
+								<MediaRef Id="220578448"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="3169234081"/>
+							<MediaRefs>
+								<MediaRef Id="953197324"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="3049823040"/>
+							<MediaRefs>
+								<MediaRef Id="217968719"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1815936827"/>
+							<MediaRefs>
+								<MediaRef Id="967612776"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1058504336"/>
+							<MediaRefs>
+								<MediaRef Id="160234496"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="4184794294"/>
+							<MediaRefs>
+								<MediaRef Id="702623806"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="626838023"/>
+							<MediaRefs>
+								<MediaRef Id="91725319"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="4243768110" Name="CompletionProgress">
+					<States>
+						<State Id="626838023" Name="Succes"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="884433284" Name="ThirdProg"/>
+						<State Id="1058504336" Name="SeventhProg"/>
+						<State Id="1281810935" Name="Start"/>
+						<State Id="1664902809" Name="SecondProg"/>
+						<State Id="1734000337" Name="ZeroP"/>
+						<State Id="1815936827" Name="SixthProg"/>
+						<State Id="3049823040" Name="FifthProg"/>
+						<State Id="3169234081" Name="FourthProg"/>
+						<State Id="3337710501" Name="FirstProg"/>
+						<State Id="4184794294" Name="Outro"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{51DAC4D8-5511-3EA4-7D2A-0FD28A9DDA19}</FileHash>
+</SoundBanksInfo>

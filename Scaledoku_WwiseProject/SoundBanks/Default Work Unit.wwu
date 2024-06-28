@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB5A5DB2-0D27-492E-A2B5-74DBE85AC8B0}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EB5A5DB2-0D27-492E-A2B5-74DBE85AC8B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{A2334186-A7C0-4BE6-813F-7388B97C4CEC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_D" ID="{FCEB9EA0-EBC7-400C-9E34-EE400A2BBF90}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_E2" ID="{0843039C-3FEA-4033-B19F-B5BA233CAD79}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_C" ID="{791841EC-5D16-41C8-BFBE-190F1B8EEE7B}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_F" ID="{65517FA7-5811-423C-B8D0-ABA7324A0B58}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_B" ID="{3B77DEF5-D4CB-4261-8461-F531BFB2C49A}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Cis" ID="{497B7869-C5EE-428F-B220-2B31C249158B}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_F2" ID="{930AB1F8-61CA-439C-955B-0DD9C0C118A1}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Erhe" ID="{4FF9AE22-CDE2-4650-B0BC-4BD8DE0D8671}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fis2" ID="{C63E275E-0D5E-4812-A057-357E25A9B797}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dis" ID="{2FAA80FD-0807-48E2-9560-6FD6DDA89750}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_A" ID="{178A0A42-A409-4B0E-A2A6-AB99CA5E75B0}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_E" ID="{D8BF8D16-0D2A-4BDC-8640-574E6588BE26}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fis" ID="{127663A5-FEFB-4BE0-A3AA-145A8F970A64}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_G" ID="{072D10C2-B429-4CE7-9518-623D6456563A}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Gis" ID="{BC4629C9-7DCA-4DAC-88A8-01729A94318F}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ais" ID="{04790E01-3A8D-4E33-AB7E-9D0D4948E054}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sudoku1BGMusic" ID="{138A6B62-348C-4DED-8504-1843851A977F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Sudoku1BG" ID="{B8C34DCC-AEA5-48B6-AC60-2FD1328211C3}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

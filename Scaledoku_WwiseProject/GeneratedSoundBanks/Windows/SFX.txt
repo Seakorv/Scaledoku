@@ -1,0 +1,36 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1774091792	Play_F			\Default Work Unit\NoteSFX\Play_F	
+	1774091793	Play_G			\Default Work Unit\NoteSFX\Play_G	
+	1774091794	Play_D			\Default Work Unit\NoteSFX\Play_D	
+	1774091795	Play_E			\Default Work Unit\NoteSFX\Play_E	
+	1774091796	Play_B			\Default Work Unit\NoteSFX\Play_B	
+	1774091797	Play_C			\Default Work Unit\NoteSFX\Play_C	
+	1774091799	Play_A			\Default Work Unit\NoteSFX\Play_A	
+	2262856450	Play_F2			\Default Work Unit\NoteSFX\Play_F2	
+	2313189339	Play_E2			\Default Work Unit\NoteSFX\Play_E2	
+	2421663725	Play_Gis			\Default Work Unit\NoteSFX\Play_Gis	
+	2556576225	Play_Cis			\Default Work Unit\NoteSFX\Play_Cis	
+	2891289960	Play_Fis			\Default Work Unit\NoteSFX\Play_Fis	
+	2998547082	Play_Fis2			\Default Work Unit\NoteSFX\Play_Fis2	
+	3026643623	Play_Ais			\Default Work Unit\NoteSFX\Play_Ais	
+	3092915550	Play_Dis			\Default Work Unit\NoteSFX\Play_Dis	
+	3746009134	Play_Erhe			\Default Work Unit\Play_Erhe	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	79008035	Fis2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Fis2_A0ACD0AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Fis2		72520
+	123551881	E2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\E2_460580FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\E2		75700
+	133994085	Fis	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Fis_65BA1B6C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Fis		77288
+	138421374	D	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\D_7BA7351E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\D		77288
+	181655638	E	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\E_E62952CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\E		75700
+	221983051	F2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\F2_527E0E26.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\F2		78084
+	307607133	Dis	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Dis_30F02976.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Dis		78880
+	535842724	B	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\B_148E26E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\B		80472
+	647069969	F	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\F_E9DC4970.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\F		76496
+	663329771	G	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\G_81C8F4BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\G		75700
+	830360556	Cis	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Cis_476D27B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Cis		77288
+	830778631	C	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\C_6F6E6061.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\C		78084
+	863695872	Gis	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Gis_69FAA163.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Gis		75700
+	945198133	Ais	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Ais_8F726D90.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\Ais		79676
+	1015377649	Erhe	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Erhe_25421316.wem		\Actor-Mixer Hierarchy\Default Work Unit\Erhe		130104
+	1065819616	A	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\A_BDB6EDB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Notes\A		78880
+

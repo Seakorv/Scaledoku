@@ -1,0 +1,23 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	4243768110	CompletionProgress			\Default Work Unit\BGMusicStates\CompletionProgress	
+
+State	ID	Name	State Group			Notes
+	748895195	None	CompletionProgress			
+	884433284	ThirdProg	CompletionProgress			
+	1058504336	SeventhProg	CompletionProgress			
+	1281810935	Start	CompletionProgress			
+	1664902809	SecondProg	CompletionProgress			
+	1734000337	ZeroP	CompletionProgress			
+	1815936827	SixthProg	CompletionProgress			
+	3049823040	FifthProg	CompletionProgress			
+	3169234081	FourthProg	CompletionProgress			
+	3337710501	FirstProg	CompletionProgress			
+	4184794294	Outro	CompletionProgress			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,63 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ScaleSelectorSquare : MonoBehaviour
+{
+    private SpriteRenderer spriteRenderer;
+    private Color startColor;
+    private Color highlight;
+
+    [SerializeField] private Text noteText;
+    [SerializeField] private int note;
+    [SerializeField] private AK.Wwise.Event noteSFX;
+    public int Note
+    {
+        get { return note; }
+    }
+    public bool Selected { get; private set; } = false;
+    // Start is called before the first frame update
+    void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        startColor = spriteRenderer.color;
+        highlight = new Color(255, 255, 255);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    void OnMouseEnter()
+    {
+        spriteRenderer.color  = highlight;
+        noteSFX.Post(gameObject);
+    }
+
+    void OnMouseDown()
+    {
+        if (!Selected) 
+        {
+            Selected = true;
+            ScaleSelector.scaleSelectorInstance.IncOrDecProposedNotes(true);
+        }
+        else if (!ScaleSelector.scaleSelectorInstance.ImCompleted)
+        {
+            Selected = false;
+            ScaleSelector.scaleSelectorInstance.IncOrDecProposedNotes(false);
+        }
+    }
+
+    void OnMouseExit()
+    {
+        if (!Selected && !ScaleSelector.scaleSelectorInstance.ImCompleted) spriteRenderer.color = startColor;
+    }
+
+    public void SetNoteText(string noteAsTxt)
+    {
+        noteText.text = noteAsTxt;
+    }
+}
