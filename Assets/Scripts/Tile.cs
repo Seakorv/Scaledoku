@@ -62,11 +62,6 @@ public class Tile : MonoBehaviour
         if (!SudokuManager.sudokuInstance.IsTilePressed && !SudokuManager.sudokuInstance.InputDisabled) 
         {
             Highlight(true);
-            SudokuManager.sudokuInstance.PlayMyNote(note);
-            //Debug.Log("My ID: " +  TileID);
-            //Debug.Log("My BoxID: " + BoxID);
-            Debug.Log("My Note: " + note);
-            //Debug.Log("__________");
         }
     }
 
@@ -77,6 +72,7 @@ public class Tile : MonoBehaviour
 
     void OnMouseDown()
     {
+        SudokuManager.sudokuInstance.PlayMyNote(note);
         if (!SudokuManager.sudokuInstance.InputDisabled && !isPreset)
         {
             SudokuManager.sudokuInstance.TilePressed(this);

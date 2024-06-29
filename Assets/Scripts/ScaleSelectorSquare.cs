@@ -34,18 +34,19 @@ public class ScaleSelectorSquare : MonoBehaviour
     void OnMouseEnter()
     {
         spriteRenderer.color  = highlight;
-        noteSFX.Post(gameObject);
     }
 
     void OnMouseDown()
     {
         if (!Selected) 
         {
+            noteSFX.Post(gameObject);
             Selected = true;
             ScaleSelector.scaleSelectorInstance.IncOrDecProposedNotes(true);
         }
         else if (!ScaleSelector.scaleSelectorInstance.ImCompleted)
         {
+            noteSFX.Post(gameObject);
             Selected = false;
             ScaleSelector.scaleSelectorInstance.IncOrDecProposedNotes(false);
         }

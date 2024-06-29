@@ -7,6 +7,7 @@ public class SelectorCircle : MonoBehaviour
 {
     [Header("All the 'buttons' of the selector circle.")]
     [SerializeField] private DeleteNumber deleteNote;
+    [SerializeField] private PlayButton playButtonMe;
     [SerializeField] private PlayButton playButtonBox;
     [SerializeField] private PlayButton playButtonRow;
     [SerializeField] private PlayButton playButtonCol;
@@ -32,7 +33,8 @@ public class SelectorCircle : MonoBehaviour
     public int GetCurrentSectorNote(Tile tile)
     {
         if (deleteNote.IsActive()) return 0;
-        if (playButtonBox.PlaySelected || playButtonRow.PlaySelected || playButtonCol.PlaySelected /*&& tile.Note != 0*/) 
+        if (playButtonMe.PlaySelected) return SudokuManager.sudokuInstance.CurrentTileNote;
+        else if (playButtonBox.PlaySelected || playButtonRow.PlaySelected || playButtonCol.PlaySelected) 
         {
             if (playButtonBox.PlaySelected) SudokuManager.sudokuInstance.StartPlayScaleCoroutine(0, tile);
             else if (playButtonRow.PlaySelected) SudokuManager.sudokuInstance.StartPlayScaleCoroutine(1, tile);
