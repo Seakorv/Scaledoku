@@ -118,12 +118,8 @@ public class ScaleSelector : MonoBehaviour
         scaleText.text = scale;
         for (int i = 0; i < squares.Length; i++)
         {
-            if (!squares[i].Selected)
-            {
-                squares[i].gameObject.SetActive(false);
-            }
+            squares[i].gameObject.SetActive(false);
         }
-        gameObject.SetActive(false);
         StartCoroutine(SudokuManager.sudokuInstance.GenerateSudoku());
     }
 }

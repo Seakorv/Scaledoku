@@ -21,6 +21,8 @@ public class SudokuManager : MonoBehaviour
     [SerializeField] private int sudokuHeight, sudokuWidth;
     [Tooltip("One box dimensions, 9x9 sudoku has 3x3 boxes.")]
     [SerializeField] private int boxHeight, boxWidth;
+    [SerializeField] private float tilePadding = 0.01f;
+    [SerializeField] private float gridPadding = 0.05f;
     public int BoxSize { get; private set;}
     [SerializeField] private Tile tilefab;
     private Tile[,] tiles;
@@ -101,9 +103,9 @@ public class SudokuManager : MonoBehaviour
         int currentTileID = 0;
         // First generate the sudoku
         int counterY = 0;
-        float boxPaddingY = 0.09f;
-        float padding = 0.00f;
-        int darken = 0;
+        float boxPaddingY = 0f;
+        float paddingX = 0.5f;
+        float paddingY = 0.5f;
         for (int y = 0; y < sudokuHeight; y++)
         {
             int counterX = 0;
@@ -111,7 +113,8 @@ public class SudokuManager : MonoBehaviour
 
             if (counterY++ == boxHeight)
             {
-                boxPaddingY = 0.05f;
+                boxPaddingY = gridPadding;
+                //paddingY += boxPaddingY;
                 counterY = 1;
             }
 
@@ -119,13 +122,13 @@ public class SudokuManager : MonoBehaviour
             {
                 if (counterX++ == boxWidth)
                 {
-                    boxPaddingX = 0.05f;
+                    boxPaddingX = gridPadding;
+                    //paddingX += boxPaddingX;
                     counterX = 1;
                 }
-                Tile spawnedTile = Instantiate(tilefab, new Vector3((float)x + padding + boxPaddingX, (float)y + padding + boxPaddingY), Quaternion.identity);
+                Tile spawnedTile = Instantiate(tilefab, new Vector3((float)x + paddingX + boxPaddingX, (float)y + paddingY + boxPaddingY), Quaternion.identity);
                 spawnedTile.TileID = currentTileID++;
                 spawnedTile.Highlight(false);
-                if (darken % 2 == 0) {}
                 int presetNumber = ToInt(sudokuNumbers[sudokuStringIndex++]);
                 if (presetNumber != 0) spawnedTile.SetPreset();
                 else howManyZeros++;
