@@ -123,6 +123,7 @@ public class ScaleSelector : MonoBehaviour
                 squares[i].gameObject.SetActive(false);
             }
         }
+        gameObject.SetActive(false);
         StartCoroutine(SudokuManager.sudokuInstance.GenerateSudoku());
     }
 }

@@ -101,11 +101,13 @@ public class SudokuManager : MonoBehaviour
         int currentTileID = 0;
         // First generate the sudoku
         int counterY = 0;
-        float boxPaddingY = 0;
+        float boxPaddingY = 0.09f;
+        float padding = 0.00f;
+        int darken = 0;
         for (int y = 0; y < sudokuHeight; y++)
         {
             int counterX = 0;
-            float boxPaddingX = 0;
+            float boxPaddingX = 0f;
 
             if (counterY++ == boxHeight)
             {
@@ -120,19 +122,20 @@ public class SudokuManager : MonoBehaviour
                     boxPaddingX = 0.05f;
                     counterX = 1;
                 }
-                Tile spawnedTile = Instantiate(tilefab, new Vector3((float)x + 0.5f + boxPaddingX, (float)y + 0.5f + boxPaddingY), Quaternion.identity);
+                Tile spawnedTile = Instantiate(tilefab, new Vector3((float)x + padding + boxPaddingX, (float)y + padding + boxPaddingY), Quaternion.identity);
                 spawnedTile.TileID = currentTileID++;
                 spawnedTile.Highlight(false);
+                if (darken % 2 == 0) {}
                 int presetNumber = ToInt(sudokuNumbers[sudokuStringIndex++]);
                 if (presetNumber != 0) spawnedTile.SetPreset();
                 else howManyZeros++;
                 spawnedTile.ChangeNote(presetNumber);
                 tiles[x,y] = spawnedTile;
-                boxPaddingX = 0;
+                boxPaddingX = 0f;
                 yield return new WaitForSeconds(generationSpeed);
             }
 
-            boxPaddingY = 0;
+            boxPaddingY = 0f;
         }
 
         // Then go through the sudoku and give every tile information 

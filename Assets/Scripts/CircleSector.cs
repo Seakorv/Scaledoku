@@ -31,6 +31,7 @@ public class CircleSector : MonoBehaviour
         ImSelected = true;
         SudokuManager.sudokuInstance.PlayMyNote(myNote);
     }
+    
 
     void OnMouseExit()
     {

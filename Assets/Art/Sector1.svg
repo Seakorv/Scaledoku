@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.689425mm"
+   height="18.245617mm"
+   viewBox="0 0 17.689425 18.245617"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3">
+      <stop
+         style="stop-color:#9ee300;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="106.10134"
+       y1="148.29727"
+       x2="72.008263"
+       y2="148.75591"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter25"
+       x="-0.22443742"
+       y="-0.21669861"
+       width="1.4488748"
+       height="1.4333972">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.623529"
+         flood-color="rgb(0,0,0)"
+         id="feFlood23" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="1.000000"
+         id="feGaussianBlur23" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset23" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite24" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite25" />
+    </filter>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-103.93496,-128.13601)">
+    <path
+       id="path127"
+       style="fill:url(#linearGradient4);stroke-width:0.264583;filter:url(#filter25)"
+       d="m 108.43059,130.89434 -1.75545,9.95391 a 7.8403711,7.8403711 0 0 1 4.46175,2.77502 l 7.74733,-6.49986 a 17.978376,17.978376 0 0 0 -10.45363,-6.22907 z" />
+  </g>
+</svg>
