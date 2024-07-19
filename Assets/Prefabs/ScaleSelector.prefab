@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 4965471593712459657}
   m_Layer: 0
   m_Name: ScaleSelectorSquare1
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 1691930682146440986}
   m_Layer: 0
   m_Name: ScaleSelectorSquare6
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -828,7 +828,7 @@ GameObject:
   - component: {fileID: 2451509992500175881}
   m_Layer: 0
   m_Name: ScaleSelectorSquare7
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 6256457493591169326}
   m_Layer: 0
   m_Name: ScaleSelectorSquare9
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 6914859382377294271}
   m_Layer: 0
   m_Name: ScaleSelectorSquare4
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 5839483805445825667}
   m_Layer: 0
   m_Name: ScaleSelectorSquare3
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2521,7 +2521,7 @@ GameObject:
   - component: {fileID: 8862997824423293565}
   m_Layer: 0
   m_Name: ScaleSelectorSquare8
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2671,7 +2671,7 @@ GameObject:
   - component: {fileID: 2626454545784913684}
   m_Layer: 0
   m_Name: ScaleSelectorSquare12
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2923,7 +2923,7 @@ GameObject:
   - component: {fileID: 5741039882204668319}
   m_Layer: 0
   m_Name: ScaleSelectorSquare10
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3152,7 +3152,7 @@ GameObject:
   - component: {fileID: 8106375249525533625}
   m_Layer: 0
   m_Name: ScaleSelectorSquare5
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3483,7 +3483,7 @@ GameObject:
   - component: {fileID: 5701014850779750452}
   m_Layer: 0
   m_Name: ScaleSelectorSquare11
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3916,7 +3916,7 @@ GameObject:
   - component: {fileID: 5389490946162298617}
   m_Layer: 0
   m_Name: ScaleSelectorSquare2
-  m_TagString: Untagged
+  m_TagString: ScaleSquare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -25,7 +25,7 @@ public class CircleSector : MonoBehaviour
         
     }
 
-    void OnMouseEnter()
+    public void OnTouch()
     {
         HighlightSector(true);
         ImSelected = true;
@@ -33,7 +33,7 @@ public class CircleSector : MonoBehaviour
     }
     
 
-    void OnMouseExit()
+    public void OnTouchExit()
     {
         HighlightSector(false);
         ImSelected = false;

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Sector
+  - PlayButton
+  - DeleteNumber
+  - ScaleSquare
+  - Tile
   layers:
   - Default
   - TransparentFX

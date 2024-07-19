@@ -14,10 +14,13 @@ public class Tile : MonoBehaviour
     [SerializeField] private SpriteRenderer zeroHL;
     [SerializeField] private SpriteRenderer redBox;
     [SerializeField] private SpriteRenderer presetColor;
+
     public string Name { get; set; }
     public int BoxID { get; set; } = 0;
     public int TileID { get; set; } = 0;
     private bool isPreset = false;
+
+    // Raycast for touch input system
     
 
     // Start is called before the first frame update
@@ -70,7 +73,7 @@ public class Tile : MonoBehaviour
         if (!SudokuManager.sudokuInstance.InputDisabled) Highlight(false);
     }
 
-    void OnMouseDown()
+    public void OnTouch()
     {
         SudokuManager.sudokuInstance.PlayMyNote(note);
         if (!SudokuManager.sudokuInstance.InputDisabled && !isPreset)
@@ -84,7 +87,7 @@ public class Tile : MonoBehaviour
         }
     }
 
-    void OnMouseUp()
+    public void OnTouchRelease()
     {
         if (!isPreset)
         {

@@ -21,8 +21,7 @@ public class SudokuManager : MonoBehaviour
     [SerializeField] private int sudokuHeight, sudokuWidth;
     [Tooltip("One box dimensions, 9x9 sudoku has 3x3 boxes.")]
     [SerializeField] private int boxHeight, boxWidth;
-    [SerializeField] private float tilePadding = 0.01f;
-    [SerializeField] private float gridPadding = 0.05f;
+    [SerializeField] private float gridPadding = 0.07f;
     public int BoxSize { get; private set;}
     [SerializeField] private Tile tilefab;
     private Tile[,] tiles;
@@ -111,21 +110,23 @@ public class SudokuManager : MonoBehaviour
             int counterX = 0;
             float boxPaddingX = 0f;
 
-            if (counterY++ == boxHeight)
+            if (counterY == boxHeight)
             {
-                boxPaddingY = gridPadding;
-                //paddingY += boxPaddingY;
-                counterY = 1;
+                boxPaddingY += gridPadding;
+                //paddingX += boxPaddingY;
+                counterY = 0;
             }
+            counterY++;
 
             for (int x = 0; x < sudokuWidth; x++)
             {
-                if (counterX++ == boxWidth)
+                if (counterX == boxWidth )
                 {
-                    boxPaddingX = gridPadding;
+                    boxPaddingX += gridPadding;
                     //paddingX += boxPaddingX;
-                    counterX = 1;
+                    counterX = 0;
                 }
+                counterX++;
                 Tile spawnedTile = Instantiate(tilefab, new Vector3((float)x + paddingX + boxPaddingX, (float)y + paddingY + boxPaddingY), Quaternion.identity);
                 spawnedTile.TileID = currentTileID++;
                 spawnedTile.Highlight(false);
@@ -134,11 +135,10 @@ public class SudokuManager : MonoBehaviour
                 else howManyZeros++;
                 spawnedTile.ChangeNote(presetNumber);
                 tiles[x,y] = spawnedTile;
-                boxPaddingX = 0f;
+                //boxPaddingX = 0f;
                 yield return new WaitForSeconds(generationSpeed);
             }
-
-            boxPaddingY = 0f;
+            //boxPaddingY = 0f;
         }
 
         // Then go through the sudoku and give every tile information 

@@ -31,15 +31,11 @@ public class ScaleSelectorSquare : MonoBehaviour
         
     }
 
-    void OnMouseEnter()
-    {
-        spriteRenderer.color  = highlight;
-    }
-
-    void OnMouseDown()
+    public void OnTouch()
     {
         if (!Selected) 
         {
+            spriteRenderer.color  = highlight;
             noteSFX.Post(gameObject);
             Selected = true;
             ScaleSelector.scaleSelectorInstance.IncOrDecProposedNotes(true);
@@ -52,7 +48,7 @@ public class ScaleSelectorSquare : MonoBehaviour
         }
     }
 
-    void OnMouseExit()
+    public void OnTouchExit()
     {
         if (!Selected && !ScaleSelector.scaleSelectorInstance.ImCompleted) spriteRenderer.color = startColor;
     }

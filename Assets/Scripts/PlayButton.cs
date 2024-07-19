@@ -26,13 +26,13 @@ public class PlayButton : MonoBehaviour
         
     }
 
-    void OnMouseOver()
+    public void OnTouch()
     {
         HighlightPlayButton(true);
         PlaySelected = true;
     }
 
-    void OnMouseExit()
+    public void OnTouchExit()
     {
         HighlightPlayButton(false);
         PlaySelected = false;
