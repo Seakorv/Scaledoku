@@ -7,6 +7,7 @@ public class SelectorCircle : MonoBehaviour
 {
     [Header("All the 'buttons' of the selector circle.")]
     [SerializeField] private DeleteNumber deleteNote;
+    public DeleteNumber DeleteNote {get { return deleteNote;}}
     [SerializeField] private PlayButton playButtonMe;
     [SerializeField] private PlayButton playButtonBox;
     [SerializeField] private PlayButton playButtonRow;

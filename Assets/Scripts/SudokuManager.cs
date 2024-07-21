@@ -180,9 +180,12 @@ public class SudokuManager : MonoBehaviour
 
     public void TileReleased(Tile tile)
     {
+        bool cancel = false;
         IsTilePressed = false;
         int proposedNote = SelectorCircle.selectorCircleInstance.GetCurrentSectorNote(tile);
-        if (proposedNote != tile.Note)
+        if (!SelectorCircle.selectorCircleInstance.DeleteNote.DeleteSelected && proposedNote == 0) cancel = true;
+
+        if (proposedNote != tile.Note && !cancel)
         {
             bool legal = CheckIfLegal(tile, proposedNote);
             if (!legal) errorSFX.Post(gameObject);

@@ -5,6 +5,7 @@ using UnityEngine;
 public class DeleteNumber : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer redCross;
+    public bool DeleteSelected { get; private set; }
 
     // Start is called before the first frame update
     void Start()
@@ -18,17 +19,19 @@ public class DeleteNumber : MonoBehaviour
         
     }
 
-    void OnMouseEnter()
+    public void OnTouchEnter()
     {
         redCross.gameObject.SetActive(true);
+        DeleteSelected = true;
     }
 
-    void OnMouseExit()
+    public void OnTouchExit()
     {
         redCross.gameObject.SetActive(false);
+        DeleteSelected = false;
     }
 
-    void OnMouseUp()
+    public void OnTouchUp()
     {
         redCross.gameObject.SetActive(false);
     }
