@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/SudokuOne.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 875b633058b2240a48eb4e53e916dd14
+  - enabled: 1
+    path: Assets/Scenes/SudokuDorian.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/SudokuPhrygian.unity
+    guid: c4bdb55b468a6441695f80e248754946
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ee9fd311ec0ab496185d407977d7eaad, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: f41d902c4942e4fa0a9351c9dc2a876e, type: 2}

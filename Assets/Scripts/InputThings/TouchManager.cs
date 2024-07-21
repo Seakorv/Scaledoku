@@ -62,6 +62,11 @@ public class TouchManager : MonoBehaviour
     {
         Vector2 wp = Camera.main.ScreenToWorldPoint(pos);
         Collider2D hit = Physics2D.OverlapPoint(wp);
+        if (!hit && !tilePressed)
+        {
+            tilePressed = false;
+            previousHit = null;
+        }
         if (hit && !tilePressed)
         {
             previousHit = hit;
@@ -112,32 +117,34 @@ public class TouchManager : MonoBehaviour
 
     private void TouchObject(InputAction.CallbackContext context)
     {
-        if (previousHit.CompareTag("ScaleSquare"))
+        if (previousHit)
         {
-            previousHit.gameObject.GetComponent<ScaleSelectorSquare>().OnTouch();
-        }
-        if (previousHit.CompareTag("Tile"))
-        {
-            tilePressed = true;
-            currentTile = previousHit.gameObject.GetComponent<Tile>();
-            currentTile.OnTouch();
-        }
-        if (previousHit.CompareTag("Sector"))
-        {
-            
+            if (previousHit.CompareTag("ScaleSquare"))
+            {
+                previousHit.gameObject.GetComponent<ScaleSelectorSquare>().OnTouch();
+            }
+            if (previousHit.CompareTag("Tile"))
+            {
+                tilePressed = true;
+                currentTile = previousHit.gameObject.GetComponent<Tile>();
+                currentTile.OnTouch();
+            }
         }
     }
 
     private void ReleaseTouch(InputAction.CallbackContext context)
     {
-        if (previousHit.CompareTag("ScaleSquare"))
+        if (previousHit)
         {
-            previousHit.gameObject.GetComponent<ScaleSelectorSquare>().OnTouchExit();
-        }
-        if (previousHit.CompareTag("Tile"))
-        {
-            tilePressed = false;
-            currentTile.OnTouchRelease();
+            if (previousHit.CompareTag("ScaleSquare"))
+            {
+                previousHit.gameObject.GetComponent<ScaleSelectorSquare>().OnTouchExit();
+            }
+            if (previousHit.CompareTag("Tile"))
+            {
+                tilePressed = false;
+                currentTile.OnTouchRelease();
+            }
         }
     }
 }
