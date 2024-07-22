@@ -3,13 +3,531 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Notes" ID="{0CB8C184-9AB3-4CF4-8CF4-674D4F90DC6B}" ShortID="637912751">
+				<Folder Name="Fusion" ID="{6354AF27-2070-4A79-B218-5874318EABE8}" ShortID="280702933">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Sound Name="A" ID="{EEB01873-0D2D-40F9-A4D8-5B49F1403993}" ShortID="62335397">
+						<Folder Name="Notes Fusion" ID="{0CB8C184-9AB3-4CF4-8CF4-674D4F90DC6B}" ShortID="637912751">
+							<ChildrenList>
+								<Sound Name="A" ID="{EEB01873-0D2D-40F9-A4D8-5B49F1403993}" ShortID="62335397">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A" ID="{08C15D63-44C4-48FD-A318-3491B8647814}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.269195813057583"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.410005930656932"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1065819616"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A" ID="{08C15D63-44C4-48FD-A318-3491B8647814}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ais" ID="{486FACA6-4A97-4E89-83DE-6FA679C8C2E5}" ShortID="33296474">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ais" ID="{C23D16A0-55F7-4D6F-87FD-C4BD99D26D77}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.240202554744526"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.414142335766423"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ais.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945198133"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ais" ID="{C23D16A0-55F7-4D6F-87FD-C4BD99D26D77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="B" ID="{6A835260-5EF5-4A46-9418-8BA7ED93C6F1}" ShortID="762581653">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="B" ID="{BA020BC2-B722-4ED2-9327-0468D6653CE7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.165656934306569"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.418283759124089"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="535842724"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="B" ID="{BA020BC2-B722-4ED2-9327-0468D6653CE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="C" ID="{5EA3F341-2928-4E23-B9AD-D94A4F20398A}" ShortID="790886521">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="C" ID="{60B3761E-7191-4BD0-8F7E-CD89DF791D13}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.157374087591241"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.405859489051096"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>C.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830778631"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="C" ID="{60B3761E-7191-4BD0-8F7E-CD89DF791D13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cis" ID="{6AAA5E54-494F-451A-8BB8-6FA52987E086}" ShortID="962503726">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cis" ID="{F6B3BB90-B878-4005-AEA7-C5F2860BA3DC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0993941605839416"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.401718065693431"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cis.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830360556"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cis" ID="{F6B3BB90-B878-4005-AEA7-C5F2860BA3DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="D" ID="{625FE113-ACC4-48F9-A2AD-1366BB49832B}" ShortID="607183331">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="D" ID="{C4D39FB1-A550-4EB4-B319-7DB8F5D788EA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.169798357664234"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.401718065693431"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="138421374"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="D" ID="{C4D39FB1-A550-4EB4-B319-7DB8F5D788EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dis" ID="{6E995534-D699-4A92-B2FE-A0F9A5D41199}" ShortID="828483982">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dis" ID="{ED098235-B190-4BD6-B29B-A72937C17C5A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.157374087591241"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.410000912408759"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Dis.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="307607133"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dis" ID="{ED098235-B190-4BD6-B29B-A72937C17C5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="E2" ID="{47BBA344-D1DD-4AC7-B5BC-DD6570973EBD}" ShortID="383967785">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="E2" ID="{FBD763F6-E95A-456E-B18F-8DF33455AE16}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.13666697080292"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>E2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123551881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="E2" ID="{FBD763F6-E95A-456E-B18F-8DF33455AE16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="E" ID="{B578E232-FDD9-4E91-9470-5B39743956B0}" ShortID="363807265">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="E" ID="{9DB362E9-3BE2-4D04-A186-320303784FFC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.182222627737226"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>E.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="181655638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="E" ID="{9DB362E9-3BE2-4D04-A186-320303784FFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="F2" ID="{89B4C279-D2DE-4FA0-AE96-D3932712D0B3}" ShortID="832124433">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="F2" ID="{50798924-6A8C-4F13-8FEE-E75256A1DF8A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.16151748783455"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.405864456609893"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>F2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="221983051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="F2" ID="{50798924-6A8C-4F13-8FEE-E75256A1DF8A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="F" ID="{1AD3AF41-5D0E-4784-9FC6-C25484F63071}" ShortID="875930274">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="F" ID="{93C3DAA7-3C7E-4B09-AE26-4291CD2A4CE0}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.173939781021898"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.397576642335767"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>F.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647069969"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="F" ID="{93C3DAA7-3C7E-4B09-AE26-4291CD2A4CE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fis2" ID="{927350AC-4E31-4065-9384-98F6ECA0A8B8}" ShortID="585788171">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fis2" ID="{0E3BCF9E-62C3-4715-A675-2E93D7524F23}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.153232664233577"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.376869525547447"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fis2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="79008035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fis2" ID="{0E3BCF9E-62C3-4715-A675-2E93D7524F23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fis" ID="{A6DA6BA1-C9FD-4A85-BDB3-FCE4F8BB7F6F}" ShortID="336980809">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fis" ID="{59DDC88D-E89F-4348-AAA0-7901BDF90CB4}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.144949817518248"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.401718065693432"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Fis.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="133994085"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fis" ID="{59DDC88D-E89F-4348-AAA0-7901BDF90CB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="G" ID="{0B4D6CF8-E1E9-4017-95BB-EF04C7CFF127}" ShortID="407348021">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="G" ID="{097AACA1-5709-4BA3-A4CA-718EA5154E6D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.165656934306569"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>G.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="663329771"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="G" ID="{097AACA1-5709-4BA3-A4CA-718EA5154E6D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gis" ID="{126D1514-E436-402E-9342-1FB734DA50F5}" ShortID="324113515">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gis" ID="{9C79816F-C947-4200-8064-0302FA3CAD3A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.153232664233577"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gis.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="863695872"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gis" ID="{9C79816F-C947-4200-8064-0302FA3CAD3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Erhe" ID="{BDD65987-CE06-4786-AC52-D554BA2810DD}" ShortID="546618880">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -22,537 +540,600 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="A" ID="{08C15D63-44C4-48FD-A318-3491B8647814}">
+								<AudioFileSource Name="Erhe" ID="{4B91C5CB-97A8-44DB-A4BF-6F4D65901391}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.269195813057583"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00621218572587186"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.161516828872668"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.410005930656932"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0248487429034874"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.70197698702352"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>A.wav</AudioFile>
+									<AudioFile>Erhe.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1065819616"/>
+										<MediaID ID="1015377649"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="A" ID="{08C15D63-44C4-48FD-A318-3491B8647814}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ais" ID="{486FACA6-4A97-4E89-83DE-6FA679C8C2E5}" ShortID="33296474">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Ais" ID="{C23D16A0-55F7-4D6F-87FD-C4BD99D26D77}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.240202554744526"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.414142335766423"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Ais.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="945198133"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Ais" ID="{C23D16A0-55F7-4D6F-87FD-C4BD99D26D77}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="B" ID="{6A835260-5EF5-4A46-9418-8BA7ED93C6F1}" ShortID="762581653">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="B" ID="{BA020BC2-B722-4ED2-9327-0468D6653CE7}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.165656934306569"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.418283759124089"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>B.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="535842724"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="B" ID="{BA020BC2-B722-4ED2-9327-0468D6653CE7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="C" ID="{5EA3F341-2928-4E23-B9AD-D94A4F20398A}" ShortID="790886521">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="C" ID="{60B3761E-7191-4BD0-8F7E-CD89DF791D13}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.157374087591241"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.405859489051096"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>C.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="830778631"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="C" ID="{60B3761E-7191-4BD0-8F7E-CD89DF791D13}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Cis" ID="{6AAA5E54-494F-451A-8BB8-6FA52987E086}" ShortID="962503726">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Cis" ID="{F6B3BB90-B878-4005-AEA7-C5F2860BA3DC}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.0993941605839416"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.401718065693431"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Cis.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="830360556"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Cis" ID="{F6B3BB90-B878-4005-AEA7-C5F2860BA3DC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="D" ID="{625FE113-ACC4-48F9-A2AD-1366BB49832B}" ShortID="607183331">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="D" ID="{C4D39FB1-A550-4EB4-B319-7DB8F5D788EA}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.169798357664234"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.401718065693431"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>D.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="138421374"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="D" ID="{C4D39FB1-A550-4EB4-B319-7DB8F5D788EA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Dis" ID="{6E995534-D699-4A92-B2FE-A0F9A5D41199}" ShortID="828483982">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Dis" ID="{ED098235-B190-4BD6-B29B-A72937C17C5A}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.157374087591241"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.410000912408759"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Dis.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="307607133"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Dis" ID="{ED098235-B190-4BD6-B29B-A72937C17C5A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="E2" ID="{47BBA344-D1DD-4AC7-B5BC-DD6570973EBD}" ShortID="383967785">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="E2" ID="{FBD763F6-E95A-456E-B18F-8DF33455AE16}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.13666697080292"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>E2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="123551881"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="E2" ID="{FBD763F6-E95A-456E-B18F-8DF33455AE16}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="E" ID="{B578E232-FDD9-4E91-9470-5B39743956B0}" ShortID="363807265">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="E" ID="{9DB362E9-3BE2-4D04-A186-320303784FFC}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.182222627737226"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>E.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="181655638"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="E" ID="{9DB362E9-3BE2-4D04-A186-320303784FFC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="F2" ID="{89B4C279-D2DE-4FA0-AE96-D3932712D0B3}" ShortID="832124433">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="F2" ID="{50798924-6A8C-4F13-8FEE-E75256A1DF8A}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.16151748783455"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.405864456609893"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>F2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="221983051"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="F2" ID="{50798924-6A8C-4F13-8FEE-E75256A1DF8A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="F" ID="{1AD3AF41-5D0E-4784-9FC6-C25484F63071}" ShortID="875930274">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="F" ID="{93C3DAA7-3C7E-4B09-AE26-4291CD2A4CE0}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.173939781021898"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.397576642335767"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>F.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="647069969"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="F" ID="{93C3DAA7-3C7E-4B09-AE26-4291CD2A4CE0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Fis2" ID="{927350AC-4E31-4065-9384-98F6ECA0A8B8}" ShortID="585788171">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Fis2" ID="{0E3BCF9E-62C3-4715-A675-2E93D7524F23}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.153232664233577"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.376869525547447"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Fis2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="79008035"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Fis2" ID="{0E3BCF9E-62C3-4715-A675-2E93D7524F23}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Fis" ID="{A6DA6BA1-C9FD-4A85-BDB3-FCE4F8BB7F6F}" ShortID="336980809">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Fis" ID="{59DDC88D-E89F-4348-AAA0-7901BDF90CB4}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.144949817518248"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.401718065693432"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Fis.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="133994085"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Fis" ID="{59DDC88D-E89F-4348-AAA0-7901BDF90CB4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="G" ID="{0B4D6CF8-E1E9-4017-95BB-EF04C7CFF127}" ShortID="407348021">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="G" ID="{097AACA1-5709-4BA3-A4CA-718EA5154E6D}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.165656934306569"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>G.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="663329771"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="G" ID="{097AACA1-5709-4BA3-A4CA-718EA5154E6D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Gis" ID="{126D1514-E436-402E-9342-1FB734DA50F5}" ShortID="324113515">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Gis" ID="{9C79816F-C947-4200-8064-0302FA3CAD3A}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.153232664233577"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.393435218978104"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Gis.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="863695872"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Gis" ID="{9C79816F-C947-4200-8064-0302FA3CAD3A}" Platform="Linked"/>
+								<ActiveSource Name="Erhe" ID="{4B91C5CB-97A8-44DB-A4BF-6F4D65901391}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Erhe" ID="{BDD65987-CE06-4786-AC52-D554BA2810DD}" ShortID="546618880">
+				<Folder Name="Metal" ID="{5B9BA205-5026-4809-AB97-04D43EDD3B75}" ShortID="558924340">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-8</Value>
-							</ValueList>
-						</Property>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
-						</Reference>
-					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Erhe" ID="{4B91C5CB-97A8-44DB-A4BF-6F4D65901391}">
+						<Folder Name="Notes" ID="{8C191B2D-6F7F-410E-AFBF-36BCB5962CEA}" ShortID="124469274">
+							<ChildrenList>
+								<Sound Name="Metal A#" ID="{16B36129-C2EF-43F1-BD79-1BBB19AD4283}" ShortID="561024420">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal A#" ID="{29E09256-F3A6-4E07-BFCE-00159E1A5BBF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.049873372172721"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.248929375142791"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal A#.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913165261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal A#" ID="{29E09256-F3A6-4E07-BFCE-00159E1A5BBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal A" ID="{6757BA27-EF04-4E19-84DF-27836017D918}" ShortID="533852771">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal A" ID="{B41C3680-6F23-4FB8-9ECE-E3B8C1AD8015}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0507483436143477"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.250241832305231"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938291180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal A" ID="{B41C3680-6F23-4FB8-9ECE-E3B8C1AD8015}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal B2" ID="{CE48B666-043E-4D4C-B07B-C72955F59382}" ShortID="905536378">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal B2" ID="{D1C7D037-CDBB-4962-9203-E35A9D4C911B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0511875"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.2498125"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal B2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="51823984"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal B2" ID="{D1C7D037-CDBB-4962-9203-E35A9D4C911B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal B" ID="{F2177163-1D50-44C6-8022-8A3057238220}" ShortID="659840720">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal B" ID="{6D7CF100-4E23-4368-BCFD-13B7583EB532}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0503108578935344"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.250241832305232"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227630487"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal B" ID="{6D7CF100-4E23-4368-BCFD-13B7583EB532}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal C2" ID="{0ECFF9A8-2392-4E8F-8558-676DE632FAF0}" ShortID="95244082">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal C2" ID="{6520DC39-7CD8-4B8E-8E8C-650AC9DB2C7E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0481234292894677"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.251116803746859"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal C2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408753181"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal C2" ID="{6520DC39-7CD8-4B8E-8E8C-650AC9DB2C7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal C#2" ID="{758434DF-E32F-4428-B819-5D60E6673C13}" ShortID="323713041">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal C#2" ID="{D830C0A0-A245-4233-80F9-2045FD535187}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.048560915010281"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.252429260909298"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal C#2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="193838763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal C#2" ID="{D830C0A0-A245-4233-80F9-2045FD535187}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal C#" ID="{CD979E5C-6D50-4893-9089-4BCBA2F3ECEE}" ShortID="884570881">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal C#" ID="{A8D6B7A6-11C9-41C2-AF71-9E3464371B42}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0494375"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.2515625"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal C#.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="405060666"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal C#" ID="{A8D6B7A6-11C9-41C2-AF71-9E3464371B42}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal C" ID="{962EA391-255D-4E74-B391-3EF4D2C1FE52}" ShortID="82395599">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal C" ID="{442A4C76-88A2-4370-A032-A6257A5C8822}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0498733721727211"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.251991775188485"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal C.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="796790971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal C" ID="{442A4C76-88A2-4370-A032-A6257A5C8822}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal D#" ID="{F4BC5C9B-40D8-42FE-9B46-6DF2C2E597F1}" ShortID="80119405">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal D#" ID="{1941DD7C-2DF8-4480-93D5-4F44D8C0D139}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.049873372172721"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.249804346584418"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal D#.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="607627437"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal D#" ID="{1941DD7C-2DF8-4480-93D5-4F44D8C0D139}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal D" ID="{92769CD6-A45E-46C8-9E5C-8D9839943C99}" ShortID="550831225">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal D" ID="{BD2779DB-C999-4838-86BC-27E1D71971AD}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.049873372172721"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.251991775188485"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal D.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1027454081"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal D" ID="{BD2779DB-C999-4838-86BC-27E1D71971AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal E" ID="{E03A708F-E5DD-4979-AA24-3F9F9E95C3E7}" ShortID="332562072">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal E" ID="{ADCFC5F8-F769-4995-A130-8B3A912536AF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.049"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.25025"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal E.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1067093970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal E" ID="{ADCFC5F8-F769-4995-A130-8B3A912536AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal F#" ID="{652DD66A-2BBB-4706-B30D-DD122AFC783A}" ShortID="69539973">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal F#" ID="{5CECEFDE-8026-452E-9936-57458562DFDF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0529357722184144"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.251554289467672"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal F#.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435379396"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal F#" ID="{5CECEFDE-8026-452E-9936-57458562DFDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal F" ID="{196A8478-1A16-4713-BF9A-E9E33CFAB68A}" ShortID="894001111">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal F" ID="{0F014613-3B9D-49F2-84B8-52B21723BE0C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0503108578935344"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.251116803746859"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal F.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157404479"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal F" ID="{0F014613-3B9D-49F2-84B8-52B21723BE0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal G#" ID="{CA8282F1-9415-46A9-8889-2366D5537D51}" ShortID="513562361">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal G#" ID="{F7CAE9B3-14F3-4D40-A17A-4119F6204121}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.04725"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.25025"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal G#.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="453720660"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal G#" ID="{F7CAE9B3-14F3-4D40-A17A-4119F6204121}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Metal G" ID="{1A84C152-1F5B-4B99-93AF-4472C58A7C6C}" ShortID="104530350">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Metal G" ID="{BAC2057B-0306-4303-91C1-AB855E16E725}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0489984007310944"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.251116803746858"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Metal G.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017037689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Metal G" ID="{BAC2057B-0306-4303-91C1-AB855E16E725}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="ErheMetal" ID="{7C815493-A450-4795-95C1-C0A2547EB4C8}" ShortID="675116075">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.00621218572587186"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.161516828872668"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="0.0248487429034874"/>
-								<Property Name="TrimEnd" Type="Real64" Value="0.70197698702352"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Erhe.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1015377649"/>
-							</MediaIDList>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05805C20-7497-47A2-8427-8ECD2EADE5A8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40A6C22B-4255-48E7-8270-CDD1CECA6536}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Metal Erhe" ID="{04318A50-0F06-42B3-8227-2A315690AA83}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0104997858122002"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.573988291066941"/>
+										<Property Name="FadeOutShape" Type="int16" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.47696987091615"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Metal Erhe.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1073564523"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Metal Erhe" ID="{04318A50-0F06-42B3-8227-2A315690AA83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Erhe" ID="{4B91C5CB-97A8-44DB-A4BF-6F4D65901391}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

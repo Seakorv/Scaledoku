@@ -11,7 +11,7 @@ public class ScaleSelectorSquare : MonoBehaviour
 
     [SerializeField] private Text noteText;
     [SerializeField] private int note;
-    [SerializeField] private AK.Wwise.Event noteSFX;
+    private AK.Wwise.Event noteSFX;
     public int Note
     {
         get { return note; }
@@ -23,6 +23,49 @@ public class ScaleSelectorSquare : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         startColor = spriteRenderer.color;
         highlight = new Color(255, 255, 255);
+    }
+
+    void Start()
+    {
+        switch (note)
+        {
+            case 1:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note1;
+                break;
+            case 2:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note2;
+                break;
+            case 3:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note3;
+                break;
+            case 4:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note4;
+                break;
+            case 5:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note5;
+                break;
+            case 6:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note6;
+                break;
+            case 7:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note7;
+                break;
+            case 8:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note8;
+                break;
+            case 9:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note9;
+                break;
+            case 10:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note10;
+                break;
+            case 11:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note11;
+                break;
+            case 12:
+                noteSFX = ScaleSelector.scaleSelectorInstance.note12;
+                break;
+        }
     }
 
     // Update is called once per frame

@@ -3,168 +3,194 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="NoteSFX" ID="{A3BCB46F-B378-48BD-A750-E3DE0DE71A49}" ShortID="8231585">
+				<Folder Name="Fusion" ID="{79E2AC0E-530B-45C7-B161-1B1139256C41}" ShortID="137249948">
 					<ChildrenList>
-						<Event Name="Play_C" ID="{791841EC-5D16-41C8-BFBE-190F1B8EEE7B}">
+						<Folder Name="NoteSFX" ID="{A3BCB46F-B378-48BD-A750-E3DE0DE71A49}" ShortID="8231585">
 							<ChildrenList>
-								<Action Name="" ID="{488B877F-0CF9-4E95-86D8-5CBD9E49869E}" ShortID="768240718">
+								<Event Name="Play_C" ID="{791841EC-5D16-41C8-BFBE-190F1B8EEE7B}">
+									<ChildrenList>
+										<Action Name="" ID="{488B877F-0CF9-4E95-86D8-5CBD9E49869E}" ShortID="768240718">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="C" ID="{5EA3F341-2928-4E23-B9AD-D94A4F20398A}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ais" ID="{04790E01-3A8D-4E33-AB7E-9D0D4948E054}">
+									<ChildrenList>
+										<Action Name="" ID="{EDD7591F-AD2C-44A0-B39E-53E3B79BD3A0}" ShortID="755150140">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ais" ID="{486FACA6-4A97-4E89-83DE-6FA679C8C2E5}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_A" ID="{178A0A42-A409-4B0E-A2A6-AB99CA5E75B0}">
+									<ChildrenList>
+										<Action Name="" ID="{45CE5103-73DE-44F2-B4DD-4D9ECB68990F}" ShortID="348165876">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="A" ID="{EEB01873-0D2D-40F9-A4D8-5B49F1403993}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Cis" ID="{497B7869-C5EE-428F-B220-2B31C249158B}">
+									<ChildrenList>
+										<Action Name="" ID="{76A88D87-A5AE-4931-89F1-FD0AC71EA913}" ShortID="893879174">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cis" ID="{6AAA5E54-494F-451A-8BB8-6FA52987E086}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_B" ID="{3B77DEF5-D4CB-4261-8461-F531BFB2C49A}">
+									<ChildrenList>
+										<Action Name="" ID="{B6704F92-F06F-4BAF-8E99-572DE587700E}" ShortID="730934455">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="B" ID="{6A835260-5EF5-4A46-9418-8BA7ED93C6F1}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_D" ID="{FCEB9EA0-EBC7-400C-9E34-EE400A2BBF90}">
+									<ChildrenList>
+										<Action Name="" ID="{9C1727C6-F717-4F34-AE27-DC1094826F75}" ShortID="1007395102">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="D" ID="{625FE113-ACC4-48F9-A2AD-1366BB49832B}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Dis" ID="{2FAA80FD-0807-48E2-9560-6FD6DDA89750}">
+									<ChildrenList>
+										<Action Name="" ID="{A792364B-56CC-456D-92EA-CF8B9D300544}" ShortID="1063012953">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Dis" ID="{6E995534-D699-4A92-B2FE-A0F9A5D41199}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_E" ID="{D8BF8D16-0D2A-4BDC-8640-574E6588BE26}">
+									<ChildrenList>
+										<Action Name="" ID="{B1A40620-317E-49E8-9BA9-B0925AFC7B03}" ShortID="897168430">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="E" ID="{B578E232-FDD9-4E91-9470-5B39743956B0}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_E2" ID="{0843039C-3FEA-4033-B19F-B5BA233CAD79}">
+									<ChildrenList>
+										<Action Name="" ID="{9B5AFA86-5C0D-4DB1-BEC0-726AF4EB5D19}" ShortID="742705554">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="E2" ID="{47BBA344-D1DD-4AC7-B5BC-DD6570973EBD}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_F" ID="{65517FA7-5811-423C-B8D0-ABA7324A0B58}">
+									<ChildrenList>
+										<Action Name="" ID="{B9D324E7-D8C0-4763-8661-72C59161116F}" ShortID="714605085">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="F" ID="{1AD3AF41-5D0E-4784-9FC6-C25484F63071}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_F2" ID="{930AB1F8-61CA-439C-955B-0DD9C0C118A1}">
+									<ChildrenList>
+										<Action Name="" ID="{EC5CEB06-2288-4C78-8999-8449E46FA9CE}" ShortID="269649837">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="F2" ID="{89B4C279-D2DE-4FA0-AE96-D3932712D0B3}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fis" ID="{127663A5-FEFB-4BE0-A3AA-145A8F970A64}">
+									<ChildrenList>
+										<Action Name="" ID="{DCA5C164-565B-4CCE-93D8-22B894E6ED6E}" ShortID="841348786">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fis" ID="{A6DA6BA1-C9FD-4A85-BDB3-FCE4F8BB7F6F}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fis2" ID="{C63E275E-0D5E-4812-A057-357E25A9B797}">
+									<ChildrenList>
+										<Action Name="" ID="{76B91ED3-5AFF-42F0-A458-FEFA0DE67454}" ShortID="235434386">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fis2" ID="{927350AC-4E31-4065-9384-98F6ECA0A8B8}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_G" ID="{072D10C2-B429-4CE7-9518-623D6456563A}">
+									<ChildrenList>
+										<Action Name="" ID="{23F08BE6-CDDF-48D8-B6E9-C4A70EC06758}" ShortID="1051351784">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="G" ID="{0B4D6CF8-E1E9-4017-95BB-EF04C7CFF127}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Gis" ID="{BC4629C9-7DCA-4DAC-88A8-01729A94318F}">
+									<ChildrenList>
+										<Action Name="" ID="{71CF1BB6-D9C3-4BD0-90B3-66FEF1B394FA}" ShortID="871546751">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Gis" ID="{126D1514-E436-402E-9342-1FB734DA50F5}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Sudoku1BG" ID="{B8C34DCC-AEA5-48B6-AC60-2FD1328211C3}">
+							<ChildrenList>
+								<Action Name="" ID="{8C7E3F92-C1CA-48BD-A1FA-DDE4CDAF5801}" ShortID="895966983">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="C" ID="{5EA3F341-2928-4E23-B9AD-D94A4F20398A}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+											<ObjectRef Name="Sudoku1" ID="{E2D8EBE1-3F57-47FB-90B2-40BFD0898835}" WorkUnitID="{E0781180-11C0-4DE6-8DE7-D8542EA75954}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Ais" ID="{04790E01-3A8D-4E33-AB7E-9D0D4948E054}">
+						<Event Name="Play_Erhe" ID="{4FF9AE22-CDE2-4650-B0BC-4BD8DE0D8671}">
 							<ChildrenList>
-								<Action Name="" ID="{EDD7591F-AD2C-44A0-B39E-53E3B79BD3A0}" ShortID="755150140">
+								<Action Name="" ID="{9A9EDA7D-00B4-431A-B172-D1CDC4533A87}" ShortID="712208749">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ais" ID="{486FACA6-4A97-4E89-83DE-6FA679C8C2E5}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_A" ID="{178A0A42-A409-4B0E-A2A6-AB99CA5E75B0}">
-							<ChildrenList>
-								<Action Name="" ID="{45CE5103-73DE-44F2-B4DD-4D9ECB68990F}" ShortID="348165876">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="A" ID="{EEB01873-0D2D-40F9-A4D8-5B49F1403993}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Cis" ID="{497B7869-C5EE-428F-B220-2B31C249158B}">
-							<ChildrenList>
-								<Action Name="" ID="{76A88D87-A5AE-4931-89F1-FD0AC71EA913}" ShortID="893879174">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Cis" ID="{6AAA5E54-494F-451A-8BB8-6FA52987E086}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_B" ID="{3B77DEF5-D4CB-4261-8461-F531BFB2C49A}">
-							<ChildrenList>
-								<Action Name="" ID="{B6704F92-F06F-4BAF-8E99-572DE587700E}" ShortID="730934455">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="B" ID="{6A835260-5EF5-4A46-9418-8BA7ED93C6F1}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_D" ID="{FCEB9EA0-EBC7-400C-9E34-EE400A2BBF90}">
-							<ChildrenList>
-								<Action Name="" ID="{9C1727C6-F717-4F34-AE27-DC1094826F75}" ShortID="1007395102">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="D" ID="{625FE113-ACC4-48F9-A2AD-1366BB49832B}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Dis" ID="{2FAA80FD-0807-48E2-9560-6FD6DDA89750}">
-							<ChildrenList>
-								<Action Name="" ID="{A792364B-56CC-456D-92EA-CF8B9D300544}" ShortID="1063012953">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Dis" ID="{6E995534-D699-4A92-B2FE-A0F9A5D41199}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_E" ID="{D8BF8D16-0D2A-4BDC-8640-574E6588BE26}">
-							<ChildrenList>
-								<Action Name="" ID="{B1A40620-317E-49E8-9BA9-B0925AFC7B03}" ShortID="897168430">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="E" ID="{B578E232-FDD9-4E91-9470-5B39743956B0}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_E2" ID="{0843039C-3FEA-4033-B19F-B5BA233CAD79}">
-							<ChildrenList>
-								<Action Name="" ID="{9B5AFA86-5C0D-4DB1-BEC0-726AF4EB5D19}" ShortID="742705554">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="E2" ID="{47BBA344-D1DD-4AC7-B5BC-DD6570973EBD}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_F" ID="{65517FA7-5811-423C-B8D0-ABA7324A0B58}">
-							<ChildrenList>
-								<Action Name="" ID="{B9D324E7-D8C0-4763-8661-72C59161116F}" ShortID="714605085">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="F" ID="{1AD3AF41-5D0E-4784-9FC6-C25484F63071}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_F2" ID="{930AB1F8-61CA-439C-955B-0DD9C0C118A1}">
-							<ChildrenList>
-								<Action Name="" ID="{EC5CEB06-2288-4C78-8999-8449E46FA9CE}" ShortID="269649837">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="F2" ID="{89B4C279-D2DE-4FA0-AE96-D3932712D0B3}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Fis" ID="{127663A5-FEFB-4BE0-A3AA-145A8F970A64}">
-							<ChildrenList>
-								<Action Name="" ID="{DCA5C164-565B-4CCE-93D8-22B894E6ED6E}" ShortID="841348786">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Fis" ID="{A6DA6BA1-C9FD-4A85-BDB3-FCE4F8BB7F6F}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Fis2" ID="{C63E275E-0D5E-4812-A057-357E25A9B797}">
-							<ChildrenList>
-								<Action Name="" ID="{76B91ED3-5AFF-42F0-A458-FEFA0DE67454}" ShortID="235434386">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Fis2" ID="{927350AC-4E31-4065-9384-98F6ECA0A8B8}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_G" ID="{072D10C2-B429-4CE7-9518-623D6456563A}">
-							<ChildrenList>
-								<Action Name="" ID="{23F08BE6-CDDF-48D8-B6E9-C4A70EC06758}" ShortID="1051351784">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="G" ID="{0B4D6CF8-E1E9-4017-95BB-EF04C7CFF127}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Gis" ID="{BC4629C9-7DCA-4DAC-88A8-01729A94318F}">
-							<ChildrenList>
-								<Action Name="" ID="{71CF1BB6-D9C3-4BD0-90B3-66FEF1B394FA}" ShortID="871546751">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Gis" ID="{126D1514-E436-402E-9342-1FB734DA50F5}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+											<ObjectRef Name="Erhe" ID="{BDD65987-CE06-4786-AC52-D554BA2810DD}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -172,28 +198,201 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Sudoku1BG" ID="{B8C34DCC-AEA5-48B6-AC60-2FD1328211C3}">
+				<Folder Name="Metal" ID="{DA634DE2-8A64-4A13-9394-815477A6FF7C}" ShortID="768898228">
 					<ChildrenList>
-						<Action Name="" ID="{8C7E3F92-C1CA-48BD-A1FA-DDE4CDAF5801}" ShortID="895966983">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sudoku1" ID="{E2D8EBE1-3F57-47FB-90B2-40BFD0898835}" WorkUnitID="{E0781180-11C0-4DE6-8DE7-D8542EA75954}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Folder Name="NoteMetalSFX" ID="{BE635E5D-C6D2-4DC9-8467-58FBDC73B9FC}" ShortID="272386155">
+							<ChildrenList>
+								<Event Name="Play_Metal_D" ID="{4E1C680C-CD73-444E-9AC4-68F2F04D2BAB}">
+									<ChildrenList>
+										<Action Name="" ID="{FAF93A63-2358-4003-8DA3-14CB79F496B4}" ShortID="204340917">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal D" ID="{92769CD6-A45E-46C8-9E5C-8D9839943C99}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_D_" ID="{104D4A17-E7DA-40FF-AAA3-AFBB4F831346}">
+									<ChildrenList>
+										<Action Name="" ID="{68F31698-DBB3-4FF4-AB50-D0B2AB50BB14}" ShortID="545078033">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal D#" ID="{F4BC5C9B-40D8-42FE-9B46-6DF2C2E597F1}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_E" ID="{13DB7490-2898-489B-92AF-5844B91F34B2}">
+									<ChildrenList>
+										<Action Name="" ID="{551C6A4B-825D-43AD-B0E2-DC87E2FFCA8D}" ShortID="89555100">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal E" ID="{E03A708F-E5DD-4979-AA24-3F9F9E95C3E7}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_C_2" ID="{730C81D6-6357-4E77-875C-903C383EC52A}">
+									<ChildrenList>
+										<Action Name="" ID="{5A8341E8-DED7-4E23-9517-C2698965CEB9}" ShortID="397368587">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal C#2" ID="{758434DF-E32F-4428-B819-5D60E6673C13}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_G" ID="{F65F91AE-97BA-4F73-A868-F4552BD90564}">
+									<ChildrenList>
+										<Action Name="" ID="{DBA78048-C89D-409B-8855-0972CC7FC1DA}" ShortID="594241828">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal G" ID="{1A84C152-1F5B-4B99-93AF-4472C58A7C6C}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_F" ID="{B5751095-9E77-4FD7-BB14-A356CD54E802}">
+									<ChildrenList>
+										<Action Name="" ID="{21412E7A-0AED-49E5-B46C-9006C04356A4}" ShortID="1683775">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal F" ID="{196A8478-1A16-4713-BF9A-E9E33CFAB68A}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_F_" ID="{60ACF3EC-CE01-4E54-8C0C-48D6014AB7F6}">
+									<ChildrenList>
+										<Action Name="" ID="{FCC5D3C3-48DC-43E2-9FDA-1D9FD1305D55}" ShortID="331068980">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal F#" ID="{652DD66A-2BBB-4706-B30D-DD122AFC783A}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_B" ID="{7B7EF2BD-CC67-4ED8-9286-3793FAFF610B}">
+									<ChildrenList>
+										<Action Name="" ID="{E35E46C3-415F-44F5-B447-27B41714C03E}" ShortID="325277190">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal B" ID="{F2177163-1D50-44C6-8022-8A3057238220}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_C2" ID="{5D98B5AF-C312-4FAF-9AA0-CEB610840BD8}">
+									<ChildrenList>
+										<Action Name="" ID="{3C6A5EE2-AF83-479F-BB4E-6C853053F276}" ShortID="5958220">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal C2" ID="{0ECFF9A8-2392-4E8F-8558-676DE632FAF0}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_C" ID="{71B3C840-750B-43AD-A718-74F26E8E5407}">
+									<ChildrenList>
+										<Action Name="" ID="{3CFE9F79-BE84-41FA-955A-C400117241B6}" ShortID="571874306">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal C" ID="{962EA391-255D-4E74-B391-3EF4D2C1FE52}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_B2" ID="{982E4230-0C25-4BD4-97F6-54BDB930B7EF}">
+									<ChildrenList>
+										<Action Name="" ID="{BC5A16C5-206C-4F5C-A043-6D2AB4C47954}" ShortID="164331114">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal B2" ID="{CE48B666-043E-4D4C-B07B-C72955F59382}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_C_" ID="{57179449-9BA8-4877-ACF3-7C08E315911C}">
+									<ChildrenList>
+										<Action Name="" ID="{57E66B05-3656-4D77-82F4-FCD865F6DE0D}" ShortID="332991970">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal C#" ID="{CD979E5C-6D50-4893-9089-4BCBA2F3ECEE}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_A_" ID="{2CA120C4-829D-48DB-8A5D-BC34894E3788}">
+									<ChildrenList>
+										<Action Name="" ID="{CE559D36-6CE5-4077-A31D-DA544ACDEABE}" ShortID="745426194">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal A#" ID="{16B36129-C2EF-43F1-BD79-1BBB19AD4283}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_A" ID="{169F7D5D-D2E0-4FF0-9B2B-EF5C4C987FD6}">
+									<ChildrenList>
+										<Action Name="" ID="{1C09225B-BD2F-408C-AA4B-1DC770B19A72}" ShortID="469377449">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal A" ID="{6757BA27-EF04-4E19-84DF-27836017D918}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Metal_G_" ID="{01F450D4-8497-4FAC-B692-9AA44D93063D}">
+									<ChildrenList>
+										<Action Name="" ID="{3BACBE16-6C72-415D-BCE5-5CD40BB326F2}" ShortID="463467972">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal G#" ID="{CA8282F1-9415-46A9-8889-2366D5537D51}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_ErheMetal" ID="{485DB40B-4DD5-4AAE-97C6-B22EC37A3DAA}">
+							<ChildrenList>
+								<Action Name="" ID="{B31D974F-F475-4659-A1F3-D128E3B75FCB}" ShortID="711816224">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ErheMetal" ID="{7C815493-A450-4795-95C1-C0A2547EB4C8}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MetalBG" ID="{CA8847B8-C99B-4B03-A910-8EE34F8EA424}">
+							<ChildrenList>
+								<Action Name="" ID="{841E6477-6D60-440A-B6B8-942C115369F9}" ShortID="1028140773">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SudokuSwitcher" ID="{07D5B7B5-70C7-4098-9884-712DA1F29C4E}" WorkUnitID="{E0781180-11C0-4DE6-8DE7-D8542EA75954}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Erhe" ID="{4FF9AE22-CDE2-4650-B0BC-4BD8DE0D8671}">
-					<ChildrenList>
-						<Action Name="" ID="{9A9EDA7D-00B4-431A-B172-D1CDC4533A87}" ShortID="712208749">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Erhe" ID="{BDD65987-CE06-4786-AC52-D554BA2810DD}" WorkUnitID="{97BE3AAB-041A-48D7-B193-7EC029C23AAF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

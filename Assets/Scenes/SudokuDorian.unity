@@ -782,6 +782,54 @@ PrefabInstance:
       propertyPath: correctScale.Array.data[5]
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note1.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1b0ca20926730412a860231a8df2b513, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note2.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: fdd50788781de4095abe9b1b6add16cd, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note3.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a0556cceaadc44acfb248163afe05ed5, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note4.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d23a4e95dc863459998b97943f4f64dd, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note5.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c03fb01e22c4461d87c80f247fce5be, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note6.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a9e730fd220b946bdab21234b70042c3, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note7.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f1eea178a69ca43898c5556e54eed924, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note8.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 777e1ee7f69a24bd2a59bc5ce976d222, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note9.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 543644eb5195244f7885c5e9360e5578, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note10.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b2dffebec2d2f4769b0d1398389f863e, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note11.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b32db334be0be48a6a36455a55c1b47c, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note12.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: cf5b0455263df479da495531e7249ad9, type: 2}
     - target: {fileID: 1309293058372223347, guid: 107b05156be5145c4941ea1691396d47, type: 3}
       propertyPath: m_Name
       value: ScaleSelector
@@ -1250,6 +1298,15 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a44d1e4947e7e4f68ae261ce1cc04ca0, type: 2}
   bgState: 0
+  sudokuWithIntro: 0
+  progress0: 10
+  progress1: 20
+  progress2: 30
+  progress3: 40
+  progress4: 50
+  progress5: 62
+  progress6: 75
+  progress7: 100
 --- !u!4 &1989983012
 Transform:
   m_ObjectHideFlags: 0

@@ -510,7 +510,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
       propertyPath: scale
-      value: ?-Phrygian
+      value: B-Phrygian
       objectReference: {fileID: 0}
     - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
       propertyPath: scaleText
@@ -523,6 +523,102 @@ PrefabInstance:
     - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
       propertyPath: correctScale.Array.data[5]
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note1.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 91905d70227814095818b7dd95e60e65, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note2.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a5ec73233ffb14ba0a4686473c9c2f79, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note3.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 89db52001bf734e3eb3f892fadd090a2, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note4.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3009255cced9d4fa9b7863ef1f55e3e4, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note5.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ed5394b4b84a444598fdc7e5c9509dc8, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note6.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 67544995db09e41f28c93b2c8b3bd152, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note7.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0de7be8283e5b4dc0ad46c4af16b9608, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note8.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 05092311de3cd49c69b64af038a29544, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note9.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4b59d0fafeb7d4e728e294f0c7de0847, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note10.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ad0ea1c9a91484222a62b05211769d33, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note11.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: bdf7b49db4e154e589890ddd2aec9d44, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: note12.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 250bb47e8b2bf4fb496dfe800240ff5c, type: 2}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[0]
+      value: B
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[1]
+      value: C
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[2]
+      value: C#
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[3]
+      value: D
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[4]
+      value: D#
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[5]
+      value: E
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[6]
+      value: F
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[7]
+      value: F#
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[8]
+      value: G
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[9]
+      value: G#
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[10]
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 781990485232991999, guid: 107b05156be5145c4941ea1691396d47, type: 3}
+      propertyPath: chromaticScale.Array.data[11]
+      value: A#
       objectReference: {fileID: 0}
     - target: {fileID: 1309293058372223347, guid: 107b05156be5145c4941ea1691396d47, type: 3}
       propertyPath: m_Name
@@ -798,6 +894,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1798139458}
   - component: {fileID: 1798139457}
+  - component: {fileID: 1798139460}
+  - component: {fileID: 1798139459}
+  - component: {fileID: 1798139462}
+  - component: {fileID: 1798139461}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -845,6 +945,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1798139459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798139456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31474089a90cb45deab76ebd911b9be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4870edc3c5f1e49068012d1b711ac14b, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1798139460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798139456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31474089a90cb45deab76ebd911b9be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1476326b1fe5a4e3586389b832b369cc, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1798139461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798139456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155cf0556a1684bbfb0576c90c49a704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ff9860af9e14c4b21951e991c920c9bc, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &1798139462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798139456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff978581431d449b9393238c135bd79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1989983010
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,10 +1061,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1989983012}
   - component: {fileID: 1989983011}
-  - component: {fileID: 1989983013}
-  - component: {fileID: 1989983014}
-  - component: {fileID: 1989983016}
-  - component: {fileID: 1989983015}
   m_Layer: 0
   m_Name: SudokuManager
   m_TagString: Untagged
@@ -878,7 +1080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e888b6f0e964391b12d3d23c9650db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempo: 141
+  tempo: 94
   generationSpeed: 0.02
   sudokuHeight: 9
   sudokuWidth: 9
@@ -894,43 +1096,43 @@ MonoBehaviour:
   primeSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1b0ca20926730412a860231a8df2b513, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 91905d70227814095818b7dd95e60e65, type: 2}
   secondSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: fdd50788781de4095abe9b1b6add16cd, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: a5ec73233ffb14ba0a4686473c9c2f79, type: 2}
   thirdSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d23a4e95dc863459998b97943f4f64dd, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 3009255cced9d4fa9b7863ef1f55e3e4, type: 2}
   fourthSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a9e730fd220b946bdab21234b70042c3, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 67544995db09e41f28c93b2c8b3bd152, type: 2}
   fifthSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 777e1ee7f69a24bd2a59bc5ce976d222, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 05092311de3cd49c69b64af038a29544, type: 2}
   sixthSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 543644eb5195244f7885c5e9360e5578, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 4b59d0fafeb7d4e728e294f0c7de0847, type: 2}
   seventhSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b32db334be0be48a6a36455a55c1b47c, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: bdf7b49db4e154e589890ddd2aec9d44, type: 2}
   octaveSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9d27712346f4f4d9f893dd2082d1463f, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 28e78afbe69c34a2dbfc51f4426fc122, type: 2}
   ninthSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c1ca8d5b11c664c3c865cc007dcb0f06, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 87e14308c13f640ba90510c013a84ae2, type: 2}
   errorSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c454a108a9727409380a4aa85032c304, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 684b00b475f6f46249c9bc47a5e5143f, type: 2}
   introState:
     idInternal: 0
     valueGuidInternal: 
@@ -992,6 +1194,15 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a44d1e4947e7e4f68ae261ce1cc04ca0, type: 2}
   bgState: 0
+  sudokuWithIntro: 1
+  progress0: 0
+  progress1: 15
+  progress2: 25
+  progress3: 37
+  progress4: 50
+  progress5: 65
+  progress6: 100
+  progress7: -1
 --- !u!4 &1989983012
 Transform:
   m_ObjectHideFlags: 0
@@ -1007,107 +1218,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1989983013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989983010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31474089a90cb45deab76ebd911b9be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 577c29f0958564fa5a9e3562002c90f2, type: 2}
-  decodeBank: 0
-  overrideLoadSetting: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
---- !u!114 &1989983014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989983010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31474089a90cb45deab76ebd911b9be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 82bdd3583ebd44617b5b90a00e7e619b, type: 2}
-  decodeBank: 0
-  overrideLoadSetting: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
---- !u!114 &1989983015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989983010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e25988dbcd50f4a1ba0daee9dfa13bd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b2bac0a3e584e40f7b717962d19e2f02, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &1989983016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989983010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ff978581431d449b9393238c135bd79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1 &2030335477
 GameObject:
   m_ObjectHideFlags: 0

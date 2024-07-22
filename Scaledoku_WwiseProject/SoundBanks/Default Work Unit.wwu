@@ -3,7 +3,7 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{EB5A5DB2-0D27-492E-A2B5-74DBE85AC8B0}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="SFX" ID="{A2334186-A7C0-4BE6-813F-7388B97C4CEC}">
+				<SoundBank Name="FusionSFX" ID="{A2334186-A7C0-4BE6-813F-7388B97C4CEC}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_D" ID="{FCEB9EA0-EBC7-400C-9E34-EE400A2BBF90}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_E2" ID="{0843039C-3FEA-4033-B19F-B5BA233CAD79}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
@@ -28,6 +28,35 @@
 				<SoundBank Name="Sudoku1BGMusic" ID="{138A6B62-348C-4DED-8504-1843851A977F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Sudoku1BG" ID="{B8C34DCC-AEA5-48B6-AC60-2FD1328211C3}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MetalSFX" ID="{908ACFC9-7164-4F6F-A95A-1B0C7979E78A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Metal_D_" ID="{104D4A17-E7DA-40FF-AAA3-AFBB4F831346}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_C" ID="{71B3C840-750B-43AD-A718-74F26E8E5407}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_D" ID="{4E1C680C-CD73-444E-9AC4-68F2F04D2BAB}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_C_" ID="{57179449-9BA8-4877-ACF3-7C08E315911C}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_E" ID="{13DB7490-2898-489B-92AF-5844B91F34B2}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_A_" ID="{2CA120C4-829D-48DB-8A5D-BC34894E3788}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ErheMetal" ID="{485DB40B-4DD5-4AAE-97C6-B22EC37A3DAA}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_B2" ID="{982E4230-0C25-4BD4-97F6-54BDB930B7EF}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_F_" ID="{60ACF3EC-CE01-4E54-8C0C-48D6014AB7F6}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_C_2" ID="{730C81D6-6357-4E77-875C-903C383EC52A}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_B" ID="{7B7EF2BD-CC67-4ED8-9286-3793FAFF610B}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_G" ID="{F65F91AE-97BA-4F73-A868-F4552BD90564}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_G_" ID="{01F450D4-8497-4FAC-B692-9AA44D93063D}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_C2" ID="{5D98B5AF-C312-4FAF-9AA0-CEB610840BD8}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_F" ID="{B5751095-9E77-4FD7-BB14-A356CD54E802}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Metal_A" ID="{169F7D5D-D2E0-4FF0-9B2B-EF5C4C987FD6}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Sudoku2BGMusic" ID="{058B95BC-5860-45DF-AA9D-76EFB060CA5A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MetalBG" ID="{CA8847B8-C99B-4B03-A910-8EE34F8EA424}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

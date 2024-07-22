@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3130166831	MetalBG			\Default Work Unit\Metal\MetalBG	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4243768110	CompletionProgress			\Default Work Unit\BGMusicStates\CompletionProgress	
+
+State	ID	Name	State Group			Notes
+	626838023	Succes	CompletionProgress			
+	748895195	None	CompletionProgress			
+	884433284	ThirdProg	CompletionProgress			
+	1058504336	SeventhProg	CompletionProgress			
+	1281810935	Start	CompletionProgress			
+	1664902809	SecondProg	CompletionProgress			
+	1734000337	ZeroP	CompletionProgress			
+	1815936827	SixthProg	CompletionProgress			
+	3049823040	FifthProg	CompletionProgress			
+	3169234081	FourthProg	CompletionProgress			
+	3337710501	FirstProg	CompletionProgress			
+	4184794294	Outro	CompletionProgress			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4122640	ScaledokuMetal Prog4	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Prog4_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Prog4\ScaledokuMetal Prog4\ScaledokuMetal Prog4		3921908
+	40516861	ScaledokuMetal Prog3	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Prog3_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Prog3\ScaledokuMetal Prog3\ScaledokuMetal Prog3		1961108
+	44307700	ScaledokuMetal Prog2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Prog2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Prog2\ScaledokuMetal Prog2\ScaledokuMetal Prog2		1961060
+	183777133	ScaledokuMetal Intro	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Intro_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Intro\ScaledokuMetal Intro\ScaledokuMetal Intro		1961060
+	636069102	ScaledokuMetal Prog5	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Prog5_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Prog5\ScaledokuMetal Prog5\ScaledokuMetal Prog5		3921912
+	740018687	ScaledokuMetal Prog1	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Prog1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Prog1\ScaledokuMetal Prog1\ScaledokuMetal Prog1		1961060
+	756988467	ScaledokuMetal IntroTransition	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal IntroTransition_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\IntroTrans\ScaledokuMetal IntroTransition		1961060
+	857071813	ScaledokuMetal Prog7	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Prog7_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Prog6\ScaledokuMetal Prog7\ScaledokuMetal Prog7		1961060
+	882617243	ScaledokuMetal Outro	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\ScaledokuMetal Outro_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Outro\ScaledokuMetal Outro		3431696
+	942894074	Metal Voitto	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Mac\SFX\Metal Voitto_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuMetal\SudokuSwitcher\Succes\Metal Voitto		337228
+

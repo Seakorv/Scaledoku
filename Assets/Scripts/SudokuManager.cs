@@ -67,6 +67,17 @@ public class SudokuManager : MonoBehaviour
     [SerializeField] private AK.Wwise.State outroState;
     [SerializeField] private AK.Wwise.State succesState;
     public BGMusicState bgState;
+    [SerializeField] private bool sudokuWithIntro = false;
+
+    [Tooltip("Percentage, when this progress will be active. if 10, 0-9% will be this.")]
+    [SerializeField] private int progress0 = 10;
+    [SerializeField] private int progress1 = 20;
+    [SerializeField] private int progress2 = 30;
+    [SerializeField] private int progress3 = 40;
+    [SerializeField] private int progress4 = 50;
+    [SerializeField] private int progress5 = 69;
+    [SerializeField] private int progress6 = 85;
+    [SerializeField] private int progress7 = 100;
     
     
     void Awake()
@@ -96,6 +107,11 @@ public class SudokuManager : MonoBehaviour
 
     public IEnumerator GenerateSudoku()
     {
+        if (sudokuWithIntro)
+        {
+            firstProg.SetValue();
+            bgState = BGMusicState.firstProg;
+        }
         sudokuCamera.transform.position = new Vector3((float)sudokuWidth / 2, (float)sudokuHeight / 2, -10);
         ScaleSelector.scaleSelectorInstance.transform.position = new Vector3((float)sudokuWidth / 2, -1.25f);
         int sudokuStringIndex = 0;
@@ -608,14 +624,16 @@ public class SudokuManager : MonoBehaviour
         float percentageFloat = 100 - ((float)howManyZeros / (float)maxZeros * 100);
         percentage = (int)percentageFloat;
 
-        if (percentage < 10) SetBGState(BGMusicState.intro);
-        else if (percentage < 20) SetBGState(BGMusicState.firstProg);
-        else if (percentage < 30) SetBGState(BGMusicState.secondProg);
-        else if (percentage < 40) SetBGState(BGMusicState.thirdProg);
-        else if (percentage < 50) SetBGState(BGMusicState.fourthProg);
-        else if (percentage < 69) SetBGState(BGMusicState.fifthProg);
-        else if (percentage < 85) SetBGState(BGMusicState.sixthProg);
-        else if (percentage < 100) SetBGState(BGMusicState.seventhProg);
+        // if sudoku has an intro music, which will be only active before generating
+        // the sudoku, we do not want intro state changing here.
+        if (percentage < progress0 && !sudokuWithIntro) SetBGState(BGMusicState.intro);
+        else if (percentage < progress1) SetBGState(BGMusicState.firstProg);
+        else if (percentage < progress2) SetBGState(BGMusicState.secondProg);
+        else if (percentage < progress3) SetBGState(BGMusicState.thirdProg);
+        else if (percentage < progress4) SetBGState(BGMusicState.fourthProg);
+        else if (percentage < progress5) SetBGState(BGMusicState.fifthProg);
+        else if (percentage < progress6) SetBGState(BGMusicState.sixthProg);
+        else if (percentage < progress7) SetBGState(BGMusicState.seventhProg);
         else if (percentage >= 100) SetBGState(BGMusicState.outro);
 
         progress.text = percentage + "%";

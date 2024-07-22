@@ -17,6 +17,21 @@ public class ScaleSelector : MonoBehaviour
     public bool ImCompleted { get; private set; } = false;
     private int proposedNoteAmount;
     private bool checkedIfCorrect = false;
+
+    [SerializeField] public AK.Wwise.Event note1;
+    [SerializeField] public AK.Wwise.Event note2;
+    [SerializeField] public AK.Wwise.Event note3;
+    [SerializeField] public AK.Wwise.Event note4;
+    [SerializeField] public AK.Wwise.Event note5;
+    [SerializeField] public AK.Wwise.Event note6;
+    [SerializeField] public AK.Wwise.Event note7;
+    [SerializeField] public AK.Wwise.Event note8;
+    [SerializeField] public AK.Wwise.Event note9;
+    [SerializeField] public AK.Wwise.Event note10;
+    [SerializeField] public AK.Wwise.Event note11;
+    [SerializeField] public AK.Wwise.Event note12;
+
+
     // Start is called before the first frame update
     void Awake()
     {

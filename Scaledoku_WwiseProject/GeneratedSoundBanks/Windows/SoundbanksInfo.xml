@@ -9,158 +9,6 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{88CD29C1-1130-D549-CC01-A23D1E79DDD2}">
-			<ShortName>SFX</ShortName>
-			<Path>SFX.bnk</Path>
-			<Media>
-				<File Id="79008035" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Fis2.wav</ShortName>
-					<CachePath>SFX/Fis2_A0ACD0AB.wem</CachePath>
-				</File>
-				<File Id="123551881" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>E2.wav</ShortName>
-					<CachePath>SFX/E2_460580FD.wem</CachePath>
-				</File>
-				<File Id="133994085" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Fis.wav</ShortName>
-					<CachePath>SFX/Fis_65BA1B6C.wem</CachePath>
-				</File>
-				<File Id="138421374" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>D.wav</ShortName>
-					<CachePath>SFX/D_7BA7351E.wem</CachePath>
-				</File>
-				<File Id="181655638" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>E.wav</ShortName>
-					<CachePath>SFX/E_E62952CF.wem</CachePath>
-				</File>
-				<File Id="221983051" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>F2.wav</ShortName>
-					<CachePath>SFX/F2_527E0E26.wem</CachePath>
-				</File>
-				<File Id="307607133" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Dis.wav</ShortName>
-					<CachePath>SFX/Dis_30F02976.wem</CachePath>
-				</File>
-				<File Id="535842724" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>B.wav</ShortName>
-					<CachePath>SFX/B_148E26E5.wem</CachePath>
-				</File>
-				<File Id="647069969" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>F.wav</ShortName>
-					<CachePath>SFX/F_E9DC4970.wem</CachePath>
-				</File>
-				<File Id="663329771" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>G.wav</ShortName>
-					<CachePath>SFX/G_81C8F4BB.wem</CachePath>
-				</File>
-				<File Id="830360556" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Cis.wav</ShortName>
-					<CachePath>SFX/Cis_476D27B9.wem</CachePath>
-				</File>
-				<File Id="830778631" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>C.wav</ShortName>
-					<CachePath>SFX/C_6F6E6061.wem</CachePath>
-				</File>
-				<File Id="863695872" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Gis.wav</ShortName>
-					<CachePath>SFX/Gis_69FAA163.wem</CachePath>
-				</File>
-				<File Id="945198133" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ais.wav</ShortName>
-					<CachePath>SFX/Ais_8F726D90.wem</CachePath>
-				</File>
-				<File Id="1015377649" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Erhe.wav</ShortName>
-					<CachePath>SFX/Erhe_25421316.wem</CachePath>
-				</File>
-				<File Id="1065819616" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>A.wav</ShortName>
-					<CachePath>SFX/A_BDB6EDB5.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="1774091799" Name="Play_A" DurationType="OneShot" DurationMin="0.41000593" DurationMax="0.41000593">
-					<MediaRefs>
-						<MediaRef Id="1065819616"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3026643623" Name="Play_Ais" DurationType="OneShot" DurationMin="0.41414234" DurationMax="0.41414234">
-					<MediaRefs>
-						<MediaRef Id="945198133"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1774091796" Name="Play_B" DurationType="OneShot" DurationMin="0.41828376" DurationMax="0.41828376">
-					<MediaRefs>
-						<MediaRef Id="535842724"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1774091797" Name="Play_C" DurationType="OneShot" DurationMin="0.4058595" DurationMax="0.4058595">
-					<MediaRefs>
-						<MediaRef Id="830778631"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2556576225" Name="Play_Cis" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
-					<MediaRefs>
-						<MediaRef Id="830360556"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1774091794" Name="Play_D" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
-					<MediaRefs>
-						<MediaRef Id="138421374"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3092915550" Name="Play_Dis" DurationType="OneShot" DurationMin="0.41000092" DurationMax="0.41000092">
-					<MediaRefs>
-						<MediaRef Id="307607133"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1774091795" Name="Play_E" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
-					<MediaRefs>
-						<MediaRef Id="181655638"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2313189339" Name="Play_E2" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
-					<MediaRefs>
-						<MediaRef Id="123551881"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3746009134" Name="Play_Erhe" DurationType="OneShot" DurationMin="0.67712826" DurationMax="0.67712826">
-					<MediaRefs>
-						<MediaRef Id="1015377649"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1774091792" Name="Play_F" DurationType="OneShot" DurationMin="0.39757663" DurationMax="0.39757663">
-					<MediaRefs>
-						<MediaRef Id="647069969"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2262856450" Name="Play_F2" DurationType="OneShot" DurationMin="0.40586445" DurationMax="0.40586445">
-					<MediaRefs>
-						<MediaRef Id="221983051"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2891289960" Name="Play_Fis" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
-					<MediaRefs>
-						<MediaRef Id="133994085"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2998547082" Name="Play_Fis2" DurationType="OneShot" DurationMin="0.37686953" DurationMax="0.37686953">
-					<MediaRefs>
-						<MediaRef Id="79008035"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1774091793" Name="Play_G" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
-					<MediaRefs>
-						<MediaRef Id="663329771"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2421663725" Name="Play_Gis" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
-					<MediaRefs>
-						<MediaRef Id="863695872"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B2B305E5-52D6-62ED-208E-98EF11602F59}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -334,6 +182,437 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
+		<SoundBank Id="3503075318" Type="User" Language="SFX" Hash="{349D4863-CDE0-4E25-A042-CFA64266DABD}">
+			<ShortName>Sudoku2BGMusic</ShortName>
+			<Path>Sudoku2BGMusic.bnk</Path>
+			<Media>
+				<File Id="4122640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog4.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog4_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="40516861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog3.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="44307700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog2.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="183777133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Intro.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Intro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="636069102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog5.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog5_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="740018687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog1.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="756988467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal IntroTransition.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal IntroTransition_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="857071813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog7.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog7_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="882617243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Outro.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Outro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="942894074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal Voitto.wav</ShortName>
+					<CachePath>SFX/Metal Voitto_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3130166831" Name="MetalBG" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="756988467"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="3337710501"/>
+							<MediaRefs>
+								<MediaRef Id="740018687"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1664902809"/>
+							<MediaRefs>
+								<MediaRef Id="44307700"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="3169234081"/>
+							<MediaRefs>
+								<MediaRef Id="4122640"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="884433284"/>
+							<MediaRefs>
+								<MediaRef Id="40516861"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="3049823040"/>
+							<MediaRefs>
+								<MediaRef Id="636069102"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1815936827"/>
+							<MediaRefs>
+								<MediaRef Id="857071813"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="4184794294"/>
+							<MediaRefs>
+								<MediaRef Id="882617243"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="626838023"/>
+							<MediaRefs>
+								<MediaRef Id="942894074"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="4243768110" Id="1281810935"/>
+							<MediaRefs>
+								<MediaRef Id="183777133"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="4243768110" Name="CompletionProgress">
+					<States>
+						<State Id="626838023" Name="Succes"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="884433284" Name="ThirdProg"/>
+						<State Id="1058504336" Name="SeventhProg"/>
+						<State Id="1281810935" Name="Start"/>
+						<State Id="1664902809" Name="SecondProg"/>
+						<State Id="1734000337" Name="ZeroP"/>
+						<State Id="1815936827" Name="SixthProg"/>
+						<State Id="3049823040" Name="FifthProg"/>
+						<State Id="3169234081" Name="FourthProg"/>
+						<State Id="3337710501" Name="FirstProg"/>
+						<State Id="4184794294" Name="Outro"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3719156526" Type="User" Language="SFX" Hash="{6F529430-CA0A-AB68-0CF2-D1336C113A96}">
+			<ShortName>FusionSFX</ShortName>
+			<Path>FusionSFX.bnk</Path>
+			<Media>
+				<File Id="79008035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fis2.wav</ShortName>
+					<CachePath>SFX/Fis2_A0ACD0AB.wem</CachePath>
+				</File>
+				<File Id="123551881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E2.wav</ShortName>
+					<CachePath>SFX/E2_460580FD.wem</CachePath>
+				</File>
+				<File Id="133994085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fis.wav</ShortName>
+					<CachePath>SFX/Fis_65BA1B6C.wem</CachePath>
+				</File>
+				<File Id="138421374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>D.wav</ShortName>
+					<CachePath>SFX/D_7BA7351E.wem</CachePath>
+				</File>
+				<File Id="181655638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E.wav</ShortName>
+					<CachePath>SFX/E_E62952CF.wem</CachePath>
+				</File>
+				<File Id="221983051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>F2.wav</ShortName>
+					<CachePath>SFX/F2_527E0E26.wem</CachePath>
+				</File>
+				<File Id="307607133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dis.wav</ShortName>
+					<CachePath>SFX/Dis_30F02976.wem</CachePath>
+				</File>
+				<File Id="535842724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B.wav</ShortName>
+					<CachePath>SFX/B_148E26E5.wem</CachePath>
+				</File>
+				<File Id="647069969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>F.wav</ShortName>
+					<CachePath>SFX/F_E9DC4970.wem</CachePath>
+				</File>
+				<File Id="663329771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>G.wav</ShortName>
+					<CachePath>SFX/G_81C8F4BB.wem</CachePath>
+				</File>
+				<File Id="830360556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cis.wav</ShortName>
+					<CachePath>SFX/Cis_476D27B9.wem</CachePath>
+				</File>
+				<File Id="830778631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C.wav</ShortName>
+					<CachePath>SFX/C_6F6E6061.wem</CachePath>
+				</File>
+				<File Id="863695872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gis.wav</ShortName>
+					<CachePath>SFX/Gis_69FAA163.wem</CachePath>
+				</File>
+				<File Id="945198133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ais.wav</ShortName>
+					<CachePath>SFX/Ais_8F726D90.wem</CachePath>
+				</File>
+				<File Id="1015377649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Erhe.wav</ShortName>
+					<CachePath>SFX/Erhe_25421316.wem</CachePath>
+				</File>
+				<File Id="1065819616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A.wav</ShortName>
+					<CachePath>SFX/A_BDB6EDB5.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1774091799" Name="Play_A" DurationType="OneShot" DurationMin="0.41000593" DurationMax="0.41000593">
+					<MediaRefs>
+						<MediaRef Id="1065819616"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3026643623" Name="Play_Ais" DurationType="OneShot" DurationMin="0.41414234" DurationMax="0.41414234">
+					<MediaRefs>
+						<MediaRef Id="945198133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091796" Name="Play_B" DurationType="OneShot" DurationMin="0.41828376" DurationMax="0.41828376">
+					<MediaRefs>
+						<MediaRef Id="535842724"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091797" Name="Play_C" DurationType="OneShot" DurationMin="0.4058595" DurationMax="0.4058595">
+					<MediaRefs>
+						<MediaRef Id="830778631"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2556576225" Name="Play_Cis" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
+					<MediaRefs>
+						<MediaRef Id="830360556"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091794" Name="Play_D" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
+					<MediaRefs>
+						<MediaRef Id="138421374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3092915550" Name="Play_Dis" DurationType="OneShot" DurationMin="0.41000092" DurationMax="0.41000092">
+					<MediaRefs>
+						<MediaRef Id="307607133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091795" Name="Play_E" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="181655638"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2313189339" Name="Play_E2" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="123551881"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3746009134" Name="Play_Erhe" DurationType="OneShot" DurationMin="0.67712826" DurationMax="0.67712826">
+					<MediaRefs>
+						<MediaRef Id="1015377649"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091792" Name="Play_F" DurationType="OneShot" DurationMin="0.39757663" DurationMax="0.39757663">
+					<MediaRefs>
+						<MediaRef Id="647069969"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2262856450" Name="Play_F2" DurationType="OneShot" DurationMin="0.40586445" DurationMax="0.40586445">
+					<MediaRefs>
+						<MediaRef Id="221983051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2891289960" Name="Play_Fis" DurationType="OneShot" DurationMin="0.40171808" DurationMax="0.40171808">
+					<MediaRefs>
+						<MediaRef Id="133994085"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2998547082" Name="Play_Fis2" DurationType="OneShot" DurationMin="0.37686953" DurationMax="0.37686953">
+					<MediaRefs>
+						<MediaRef Id="79008035"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1774091793" Name="Play_G" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="663329771"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2421663725" Name="Play_Gis" DurationType="OneShot" DurationMin="0.3934352" DurationMax="0.3934352">
+					<MediaRefs>
+						<MediaRef Id="863695872"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3834709199" Type="User" Language="SFX" Hash="{AF501ACA-6661-39F8-1FEE-7195CC95EE84}">
+			<ShortName>MetalSFX</ShortName>
+			<Path>MetalSFX.bnk</Path>
+			<Media>
+				<File Id="51823984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal B2.wav</ShortName>
+					<CachePath>SFX/Metal B2_4B16772F.wem</CachePath>
+				</File>
+				<File Id="157404479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal F.wav</ShortName>
+					<CachePath>SFX/Metal F_62F92C87.wem</CachePath>
+				</File>
+				<File Id="193838763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal C#2.wav</ShortName>
+					<CachePath>SFX/Metal C#2_651B2157.wem</CachePath>
+				</File>
+				<File Id="227630487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal B.wav</ShortName>
+					<CachePath>SFX/Metal B_19AFE443.wem</CachePath>
+				</File>
+				<File Id="405060666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal C#.wav</ShortName>
+					<CachePath>SFX/Metal C#_B04FB155.wem</CachePath>
+				</File>
+				<File Id="408753181" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal C2.wav</ShortName>
+					<CachePath>SFX/Metal C2_3362C388.wem</CachePath>
+				</File>
+				<File Id="435379396" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal F#.wav</ShortName>
+					<CachePath>SFX/Metal F#_4397C9F3.wem</CachePath>
+				</File>
+				<File Id="453720660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal G#.wav</ShortName>
+					<CachePath>SFX/Metal G#_D1A91836.wem</CachePath>
+				</File>
+				<File Id="607627437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal D#.wav</ShortName>
+					<CachePath>SFX/Metal D#_A39D2A12.wem</CachePath>
+				</File>
+				<File Id="796790971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal C.wav</ShortName>
+					<CachePath>SFX/Metal C_7DB8C782.wem</CachePath>
+				</File>
+				<File Id="913165261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal A#.wav</ShortName>
+					<CachePath>SFX/Metal A#_468C61BE.wem</CachePath>
+				</File>
+				<File Id="938291180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal A.wav</ShortName>
+					<CachePath>SFX/Metal A_293981AD.wem</CachePath>
+				</File>
+				<File Id="1017037689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal G.wav</ShortName>
+					<CachePath>SFX/Metal G_D29F61A2.wem</CachePath>
+				</File>
+				<File Id="1027454081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal D.wav</ShortName>
+					<CachePath>SFX/Metal D_4E6882DC.wem</CachePath>
+				</File>
+				<File Id="1067093970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal E.wav</ShortName>
+					<CachePath>SFX/Metal E_6E7E86FC.wem</CachePath>
+				</File>
+				<File Id="1073564523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal Erhe.wav</ShortName>
+					<CachePath>SFX/Metal Erhe_5F892ED4.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3269983755" Name="Play_ErheMetal" DurationType="OneShot" DurationMin="1.4769698" DurationMax="1.4769698">
+					<MediaRefs>
+						<MediaRef Id="1073564523"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975791" Name="Play_Metal_A" DurationType="OneShot" DurationMin="0.25024185" DurationMax="0.25024185">
+					<MediaRefs>
+						<MediaRef Id="938291180"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3385441122" Name="Play_Metal_A_" DurationType="OneShot" DurationMin="0.24892938" DurationMax="0.24892938">
+					<MediaRefs>
+						<MediaRef Id="913165261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975788" Name="Play_Metal_B" DurationType="OneShot" DurationMin="0.25024185" DurationMax="0.25024185">
+					<MediaRefs>
+						<MediaRef Id="227630487"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3335108278" Name="Play_Metal_B2" DurationType="OneShot" DurationMin="0.2498125" DurationMax="0.2498125">
+					<MediaRefs>
+						<MediaRef Id="51823984"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975789" Name="Play_Metal_C" DurationType="OneShot" DurationMin="0.25199178" DurationMax="0.25199178">
+					<MediaRefs>
+						<MediaRef Id="796790971"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3351885861" Name="Play_Metal_C2" DurationType="OneShot" DurationMin="0.2511168" DurationMax="0.2511168">
+					<MediaRefs>
+						<MediaRef Id="408753181"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3351885896" Name="Play_Metal_C_" DurationType="OneShot" DurationMin="0.2515625" DurationMax="0.2515625">
+					<MediaRefs>
+						<MediaRef Id="405060666"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3398244714" Name="Play_Metal_C_2" DurationType="OneShot" DurationMin="0.25242925" DurationMax="0.25242925">
+					<MediaRefs>
+						<MediaRef Id="193838763"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975786" Name="Play_Metal_D" DurationType="OneShot" DurationMin="0.25199178" DurationMax="0.25199178">
+					<MediaRefs>
+						<MediaRef Id="1027454081"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3301552897" Name="Play_Metal_D_" DurationType="OneShot" DurationMin="0.24980435" DurationMax="0.24980435">
+					<MediaRefs>
+						<MediaRef Id="607627437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975787" Name="Play_Metal_E" DurationType="OneShot" DurationMin="0.25025" DurationMax="0.25025">
+					<MediaRefs>
+						<MediaRef Id="1067093970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975784" Name="Play_Metal_F" DurationType="OneShot" DurationMin="0.2511168" DurationMax="0.2511168">
+					<MediaRefs>
+						<MediaRef Id="157404479"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3267997799" Name="Play_Metal_F_" DurationType="OneShot" DurationMin="0.25155428" DurationMax="0.25155428">
+					<MediaRefs>
+						<MediaRef Id="435379396"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2097975785" Name="Play_Metal_G" DurationType="OneShot" DurationMin="0.2511168" DurationMax="0.2511168">
+					<MediaRefs>
+						<MediaRef Id="1017037689"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3284775316" Name="Play_Metal_G_" DurationType="OneShot" DurationMin="0.25025" DurationMax="0.25025">
+					<MediaRefs>
+						<MediaRef Id="453720660"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{51DAC4D8-5511-3EA4-7D2A-0FD28A9DDA19}</FileHash>
+	<FileHash>{B7661113-232B-B824-4F91-331E7C8AC467}</FileHash>
 </SoundBanksInfo>

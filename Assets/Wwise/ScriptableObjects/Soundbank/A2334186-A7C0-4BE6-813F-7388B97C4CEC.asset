@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fde07cd528f741b49029e4ad24d91e7, type: 3}
   m_Name: A2334186-A7C0-4BE6-813F-7388B97C4CEC
   m_EditorClassIdentifier: 
-  objectName: SFX
-  id: 393239870
+  objectName: FusionSFX
+  id: 3719156526
   guid: A2334186-A7C0-4BE6-813F-7388B97C4CEC
