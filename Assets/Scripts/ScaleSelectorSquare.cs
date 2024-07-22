@@ -17,7 +17,7 @@ public class ScaleSelectorSquare : MonoBehaviour
         get { return note; }
     }
     public bool Selected { get; private set; } = false;
-    // Start is called before the first frame update
+
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -68,22 +68,17 @@ public class ScaleSelectorSquare : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OnTouch()
     {
-        if (!Selected) 
+        if (!Selected && !SudokuManager.sudokuInstance.InputDisabled) 
         {
             spriteRenderer.color  = highlight;
             noteSFX.Post(gameObject);
             Selected = true;
             ScaleSelector.scaleSelectorInstance.IncOrDecProposedNotes(true);
         }
-        else if (!ScaleSelector.scaleSelectorInstance.ImCompleted)
+        else if (!ScaleSelector.scaleSelectorInstance.ImCompleted && !SudokuManager.sudokuInstance.InputDisabled)
         {
             noteSFX.Post(gameObject);
             Selected = false;
@@ -93,7 +88,10 @@ public class ScaleSelectorSquare : MonoBehaviour
 
     public void OnTouchExit()
     {
-        if (!Selected && !ScaleSelector.scaleSelectorInstance.ImCompleted) spriteRenderer.color = startColor;
+        if (!Selected && !ScaleSelector.scaleSelectorInstance.ImCompleted && !SudokuManager.sudokuInstance.InputDisabled) 
+        {
+            spriteRenderer.color = startColor;
+        }
     }
 
     public void SetNoteText(string noteAsTxt)

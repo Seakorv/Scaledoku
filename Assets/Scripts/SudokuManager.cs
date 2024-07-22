@@ -12,6 +12,7 @@ using UnityEngine.UI;
 
 public class SudokuManager : MonoBehaviour
 {
+    [SerializeField] private GameObject popUpMenu;
     [SerializeField] private float tempo = 141;
     [SerializeField] private float generationSpeed = 0.02f;
     private bool sudokuCompleted = false;
@@ -31,7 +32,6 @@ public class SudokuManager : MonoBehaviour
     public static SudokuManager sudokuInstance;
     public bool IsTilePressed { get; private set; } = false;
     public bool InputDisabled { get; private set; } = false;
-    private Tile currentTile;
     public int CurrentTileNote { get; private set; }
 
     [Tooltip("Write the sudoku numbers as a continuous string. Left to right and from bottom, 0 is empty.")]
@@ -66,6 +66,7 @@ public class SudokuManager : MonoBehaviour
     [SerializeField] private AK.Wwise.State seventhProg;
     [SerializeField] private AK.Wwise.State outroState;
     [SerializeField] private AK.Wwise.State succesState;
+    [SerializeField] private AK.Wwise.State muteState;
     public BGMusicState bgState;
     [SerializeField] private bool sudokuWithIntro = false;
 
@@ -190,7 +191,6 @@ public class SudokuManager : MonoBehaviour
         IsTilePressed = true;
         selectorCircle.gameObject.SetActive(true);
         selectorCircle.position = tile.transform.position;
-        currentTile = tile;
         CurrentTileNote = tile.Note;
     }
 
@@ -676,9 +676,16 @@ public class SudokuManager : MonoBehaviour
             case BGMusicState.succes:
                 succesState.SetValue();
                 break;
-            
+            case BGMusicState.mute:
+                muteState.SetValue();
+                break;
         }
         if (state != BGMusicState.succes) bgState = state;
+    }
+
+    public void SetMuteState()
+    {
+        SetBGState(BGMusicState.mute);
     }
 
     /// <summary>
@@ -771,6 +778,18 @@ public class SudokuManager : MonoBehaviour
         Debug.Log(tiles.Length + " Tiles Length");
         Debug.Log(rounds + " Rounds");
     }
+
+    public void OpenMenu()
+    {
+        popUpMenu.SetActive(true);
+        InputDisabled = true;
+    }
+
+    public void CloseMenu()
+    {
+        popUpMenu.SetActive(false);
+        InputDisabled = false;
+    }
 }
 
 public enum BGMusicState
@@ -785,5 +804,6 @@ public enum BGMusicState
     seventhProg,
     outro,
     succes,
+    mute,
 }
 

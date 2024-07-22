@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3335369946	Sudoku1BG			\Default Work Unit\Sudoku1BG	
+	3335369946	Sudoku1BG			\Default Work Unit\Fusion\Sudoku1BG	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4243768110	CompletionProgress			\Default Work Unit\BGMusicStates\CompletionProgress	
@@ -13,22 +13,23 @@ State	ID	Name	State Group			Notes
 	1664902809	SecondProg	CompletionProgress			
 	1734000337	ZeroP	CompletionProgress			
 	1815936827	SixthProg	CompletionProgress			
+	2974103762	Mute	CompletionProgress			
 	3049823040	FifthProg	CompletionProgress			
 	3169234081	FourthProg	CompletionProgress			
 	3337710501	FirstProg	CompletionProgress			
 	4184794294	Outro	CompletionProgress			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	91725319	Onnistuminen	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Onnistuminen_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\Onnistuminen\Onnistuminen		469996
-	160234496	SudokuMusicFinalProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFinalProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\SeventhProg\SudokuMusicFinalProg\SudokuMusicFinalProg		1961012
-	164045800	SudokuMusicStart_01	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicStart_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\Intro\StartLoop\SudokuMusicStart_01		2206228
-	217968719	SudokuMusicB1	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicB1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\FifthProg\SudokuMusicB1\SudokuMusicB1		1797608
-	220578448	SudokuMusicThirdProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicThirdProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\ThridProg\SudokuMusicThirdProg\SudokuMusicThirdProg		1797608
-	356953970	SudokuMusicFirstProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFirstProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\FirstProg\SudokuMusicFirstProg\SudokuMusicFirstProg		1797608
-	669935241	SudokuMusicFourthProg copy	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFourthProg copy_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\FourthToBTransition\SudokuMusicFourthProg copy		1797608
-	702623806	SudokuMusicOutro	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicOutro_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\SudokuMusicOutro\SudokuMusicOutro		1143988
-	938758917	SudokuMusicB2 copy	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicB2 copy_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\B2toFinal\SudokuMusicB2 copy		1797608
-	951666036	SudokuMusicSecondProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicSecondProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\SecondProg\SudokuMusicSecondProg\SudokuMusicSecondProg		1797608
-	953197324	SudokuMusicFourthProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFourthProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\FourthProg\SudokuMusicFourthProg\SudokuMusicFourthProg		1797608
-	967612776	SudokuMusicB2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicB2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\BGMusic\Sudoku1\SixthProg\SudokuMusicB2\SudokuMusicB2		1797608
+	91725319	Onnistuminen	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Onnistuminen_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\Onnistuminen\Onnistuminen		469996
+	160234496	SudokuMusicFinalProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFinalProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\SeventhProg\SudokuMusicFinalProg\SudokuMusicFinalProg		1961012
+	164045800	SudokuMusicStart_01	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicStart_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\Intro\StartLoop\SudokuMusicStart_01		2206228
+	217968719	SudokuMusicB1	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicB1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\FifthProg\SudokuMusicB1\SudokuMusicB1		1797608
+	220578448	SudokuMusicThirdProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicThirdProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\ThridProg\SudokuMusicThirdProg\SudokuMusicThirdProg		1797608
+	356953970	SudokuMusicFirstProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFirstProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\FirstProg\SudokuMusicFirstProg\SudokuMusicFirstProg		1797608
+	669935241	SudokuMusicFourthProg copy	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFourthProg copy_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\FourthToBTransition\SudokuMusicFourthProg copy		1797608
+	702623806	SudokuMusicOutro	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicOutro_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\SudokuMusicOutro\SudokuMusicOutro		1143988
+	938758917	SudokuMusicB2 copy	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicB2 copy_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\B2toFinal\SudokuMusicB2 copy		1797608
+	951666036	SudokuMusicSecondProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicSecondProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\SecondProg\SudokuMusicSecondProg\SudokuMusicSecondProg		1797608
+	953197324	SudokuMusicFourthProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFourthProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\FourthProg\SudokuMusicFourthProg\SudokuMusicFourthProg		1797608
+	967612776	SudokuMusicB2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicB2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SudokuFusion\Sudoku1\SixthProg\SudokuMusicB2\SudokuMusicB2		1797608
 

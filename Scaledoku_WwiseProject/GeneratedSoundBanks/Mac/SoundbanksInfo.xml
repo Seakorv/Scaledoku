@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{389BD2E4-A9B0-FE1A-7239-18889EFD30D2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C797BBC8-2AD3-3CBC-7DC0-A06605296A77}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,9 +19,24 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="2886307548" Name="MusicBus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803850708" Name="SFXBus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="1323406209" Name="MainMenuStates">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2974103762" Name="Mute"/>
+						<State Id="3508639284" Name="SudokuTwo"/>
+						<State Id="3655650978" Name="SudokuOne"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="4243768110" Name="CompletionProgress">
 					<States>
 						<State Id="626838023" Name="Succes"/>
@@ -32,6 +47,7 @@
 						<State Id="1664902809" Name="SecondProg"/>
 						<State Id="1734000337" Name="ZeroP"/>
 						<State Id="1815936827" Name="SixthProg"/>
+						<State Id="2974103762" Name="Mute"/>
 						<State Id="3049823040" Name="FifthProg"/>
 						<State Id="3169234081" Name="FourthProg"/>
 						<State Id="3337710501" Name="FirstProg"/>
@@ -40,7 +56,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2511829303" Type="User" Language="SFX" Hash="{697E8F00-73E5-66E9-E856-B12AB6CA981B}">
+		<SoundBank Id="2511829303" Type="User" Language="SFX" Hash="{F8E04915-74F4-F712-50D2-FF63755CEE2C}">
 			<ShortName>Sudoku1BGMusic</ShortName>
 			<Path>Sudoku1BGMusic.bnk</Path>
 			<Media>
@@ -174,6 +190,7 @@
 						<State Id="1664902809" Name="SecondProg"/>
 						<State Id="1734000337" Name="ZeroP"/>
 						<State Id="1815936827" Name="SixthProg"/>
+						<State Id="2974103762" Name="Mute"/>
 						<State Id="3049823040" Name="FifthProg"/>
 						<State Id="3169234081" Name="FourthProg"/>
 						<State Id="3337710501" Name="FirstProg"/>
@@ -182,7 +199,49 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3503075318" Type="User" Language="SFX" Hash="{349D4863-CDE0-4E25-A042-CFA64266DABD}">
+		<SoundBank Id="2960854487" Type="User" Language="SFX" Hash="{CD9770D1-8F00-1CD8-86E2-02BF6729D31B}">
+			<ShortName>MainMenuSBK</ShortName>
+			<Path>MainMenuSBK.bnk</Path>
+			<Media>
+				<File Id="636069102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ScaledokuMetal Prog5.wav</ShortName>
+					<CachePath>SFX/ScaledokuMetal Prog5_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="953197324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SudokuMusicFourthProg.wav</ShortName>
+					<CachePath>SFX/SudokuMusicFourthProg_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4178100890" Name="Previews" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1323406209" Id="3655650978"/>
+							<MediaRefs>
+								<MediaRef Id="953197324"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1323406209" Id="3508639284"/>
+							<MediaRefs>
+								<MediaRef Id="636069102"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1323406209" Name="MainMenuStates">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2974103762" Name="Mute"/>
+						<State Id="3508639284" Name="SudokuTwo"/>
+						<State Id="3655650978" Name="SudokuOne"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3503075318" Type="User" Language="SFX" Hash="{2B571340-C421-CA22-0B9E-30C4B6368832}">
 			<ShortName>Sudoku2BGMusic</ShortName>
 			<Path>Sudoku2BGMusic.bnk</Path>
 			<Media>
@@ -301,6 +360,7 @@
 						<State Id="1664902809" Name="SecondProg"/>
 						<State Id="1734000337" Name="ZeroP"/>
 						<State Id="1815936827" Name="SixthProg"/>
+						<State Id="2974103762" Name="Mute"/>
 						<State Id="3049823040" Name="FifthProg"/>
 						<State Id="3169234081" Name="FourthProg"/>
 						<State Id="3337710501" Name="FirstProg"/>
@@ -309,7 +369,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3719156526" Type="User" Language="SFX" Hash="{6F529430-CA0A-AB68-0CF2-D1336C113A96}">
+		<SoundBank Id="3719156526" Type="User" Language="SFX" Hash="{CCD95EBA-959B-AC27-6F3A-9E4184CA14BB}">
 			<ShortName>FusionSFX</ShortName>
 			<Path>FusionSFX.bnk</Path>
 			<Media>
@@ -461,73 +521,73 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3834709199" Type="User" Language="SFX" Hash="{AF501ACA-6661-39F8-1FEE-7195CC95EE84}">
+		<SoundBank Id="3834709199" Type="User" Language="SFX" Hash="{3087E9BF-9B3B-63F8-3AD0-D35C09708CC8}">
 			<ShortName>MetalSFX</ShortName>
 			<Path>MetalSFX.bnk</Path>
 			<Media>
 				<File Id="51823984" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal B2.wav</ShortName>
-					<CachePath>SFX/Metal B2_4B16772F.wem</CachePath>
+					<CachePath>SFX/Metal B2_D35969AA.wem</CachePath>
 				</File>
 				<File Id="157404479" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal F.wav</ShortName>
-					<CachePath>SFX/Metal F_62F92C87.wem</CachePath>
+					<CachePath>SFX/Metal F_060AFF06.wem</CachePath>
 				</File>
 				<File Id="193838763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal C#2.wav</ShortName>
-					<CachePath>SFX/Metal C#2_651B2157.wem</CachePath>
+					<CachePath>SFX/Metal C#2_9052A913.wem</CachePath>
 				</File>
 				<File Id="227630487" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal B.wav</ShortName>
-					<CachePath>SFX/Metal B_19AFE443.wem</CachePath>
+					<CachePath>SFX/Metal B_AFA4BB1D.wem</CachePath>
 				</File>
 				<File Id="405060666" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal C#.wav</ShortName>
-					<CachePath>SFX/Metal C#_B04FB155.wem</CachePath>
+					<CachePath>SFX/Metal C#_C4E83A00.wem</CachePath>
 				</File>
 				<File Id="408753181" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal C2.wav</ShortName>
-					<CachePath>SFX/Metal C2_3362C388.wem</CachePath>
+					<CachePath>SFX/Metal C2_1166437C.wem</CachePath>
 				</File>
 				<File Id="435379396" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal F#.wav</ShortName>
-					<CachePath>SFX/Metal F#_4397C9F3.wem</CachePath>
+					<CachePath>SFX/Metal F#_CE2F5C96.wem</CachePath>
 				</File>
 				<File Id="453720660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal G#.wav</ShortName>
-					<CachePath>SFX/Metal G#_D1A91836.wem</CachePath>
+					<CachePath>SFX/Metal G#_28234FE1.wem</CachePath>
 				</File>
 				<File Id="607627437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal D#.wav</ShortName>
-					<CachePath>SFX/Metal D#_A39D2A12.wem</CachePath>
+					<CachePath>SFX/Metal D#_48A301A6.wem</CachePath>
 				</File>
 				<File Id="796790971" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal C.wav</ShortName>
-					<CachePath>SFX/Metal C_7DB8C782.wem</CachePath>
+					<CachePath>SFX/Metal C_898C7BD1.wem</CachePath>
 				</File>
 				<File Id="913165261" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal A#.wav</ShortName>
-					<CachePath>SFX/Metal A#_468C61BE.wem</CachePath>
+					<CachePath>SFX/Metal A#_48C8A0E7.wem</CachePath>
 				</File>
 				<File Id="938291180" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal A.wav</ShortName>
-					<CachePath>SFX/Metal A_293981AD.wem</CachePath>
+					<CachePath>SFX/Metal A_9161D6DF.wem</CachePath>
 				</File>
 				<File Id="1017037689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal G.wav</ShortName>
-					<CachePath>SFX/Metal G_D29F61A2.wem</CachePath>
+					<CachePath>SFX/Metal G_8D248BFC.wem</CachePath>
 				</File>
 				<File Id="1027454081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal D.wav</ShortName>
-					<CachePath>SFX/Metal D_4E6882DC.wem</CachePath>
+					<CachePath>SFX/Metal D_1A774403.wem</CachePath>
 				</File>
 				<File Id="1067093970" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal E.wav</ShortName>
-					<CachePath>SFX/Metal E_6E7E86FC.wem</CachePath>
+					<CachePath>SFX/Metal E_37E9B7CA.wem</CachePath>
 				</File>
 				<File Id="1073564523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal Erhe.wav</ShortName>
-					<CachePath>SFX/Metal Erhe_5F892ED4.wem</CachePath>
+					<CachePath>SFX/Metal Erhe_ED55F594.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -614,5 +674,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{09B2801E-9E98-12D7-32AE-3248B299010D}</FileHash>
+	<FileHash>{F3F0D09D-34E1-A36A-9642-4C50EAC7E6F1}</FileHash>
 </SoundBanksInfo>

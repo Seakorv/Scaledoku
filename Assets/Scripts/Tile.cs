@@ -75,26 +75,30 @@ public class Tile : MonoBehaviour
 
     public void OnTouch()
     {
-        SudokuManager.sudokuInstance.PlayMyNote(note);
-        if (!SudokuManager.sudokuInstance.InputDisabled && !isPreset)
+        if (!SudokuManager.sudokuInstance.InputDisabled)
         {
-            SudokuManager.sudokuInstance.TilePressed(this);
-            //Highlight(true);
-        }
-        if (!SudokuManager.sudokuInstance.InputDisabled && isPreset)
-        {
-            SudokuManager.sudokuInstance.PresetTilePressed(this);
+            SudokuManager.sudokuInstance.PlayMyNote(note);
+            if (!isPreset)
+            {
+                SudokuManager.sudokuInstance.TilePressed(this);
+            }
+            if (isPreset)
+            {
+                SudokuManager.sudokuInstance.PresetTilePressed(this);
+            }
         }
     }
 
     public void OnTouchRelease()
     {
-        if (!isPreset)
+        if (!SudokuManager.sudokuInstance.InputDisabled)
         {
-            SudokuManager.sudokuInstance.TileReleased(this);
-            //Highlight(false);
+            if (!isPreset)
+            {
+                SudokuManager.sudokuInstance.TileReleased(this);
+            }
+            else SudokuManager.sudokuInstance.PresetTileReleased(this);
         }
-        else SudokuManager.sudokuInstance.PresetTileReleased(this);
     }
 
     public void Highlight(bool onEnter)

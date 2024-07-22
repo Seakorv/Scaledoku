@@ -61,6 +61,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="MainMenuSBK" ID="{9EA1B35A-BBC2-4436-91DE-3E49DCF90444}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Previews" ID="{5921FE5B-CCFA-4E12-966B-EE729C50FA3C}" WorkUnitID="{85B51C05-2640-4C3C-AC8C-3B1C4C9D74B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

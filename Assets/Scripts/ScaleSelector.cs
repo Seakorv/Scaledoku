@@ -45,7 +45,6 @@ public class ScaleSelector : MonoBehaviour
         for (int i = 0; i < squares.Length; i++)
         {
             squares[i].SetNoteText(chromaticScale[i]);
-            Debug.Log(squares[i].Note + " Square Note");
         }
     }
 
@@ -84,9 +83,7 @@ public class ScaleSelector : MonoBehaviour
                 {
                     ImCompleted = true;
                     ScaleCompleted();
-                    Debug.Log("Jippii");
                 }
-                Debug.Log("Väärin");
             }
         }
     }
@@ -96,7 +93,6 @@ public class ScaleSelector : MonoBehaviour
         if (checkedIfCorrect) checkedIfCorrect = false;
         if (incOrDec) proposedNoteAmount++;
         else proposedNoteAmount--;
-        Debug.Log(proposedNoteAmount + " = " + correctScale.Length);
     }
 
     private bool CheckIfCorrect()
@@ -110,15 +106,6 @@ public class ScaleSelector : MonoBehaviour
             {
                 chosenNotes[chosenIndex++] = squares[i].Note;
             }
-        }
-        for(int i = 0; i < correctScale.Length;i++)
-        {
-            Debug.Log(" Correct Scale: " + correctScale[i]);
-        }
-
-        for(int i = 0; i < correctScale.Length;i++)
-        {
-            Debug.Log(" Chosen : " + chosenNotes[i]);
         }
 
         for (int i = 0; i < correctScale.Length; i++)

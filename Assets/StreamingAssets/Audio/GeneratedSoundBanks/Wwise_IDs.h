@@ -46,6 +46,7 @@ namespace AK
         static const AkUniqueID PLAY_METAL_F_ = 3267997799U;
         static const AkUniqueID PLAY_METAL_G = 2097975785U;
         static const AkUniqueID PLAY_METAL_G_ = 3284775316U;
+        static const AkUniqueID PREVIEWS = 4178100890U;
         static const AkUniqueID SUDOKU1BG = 3335369946U;
     } // namespace EVENTS
 
@@ -60,6 +61,7 @@ namespace AK
                 static const AkUniqueID FIFTHPROG = 3049823040U;
                 static const AkUniqueID FIRSTPROG = 3337710501U;
                 static const AkUniqueID FOURTHPROG = 3169234081U;
+                static const AkUniqueID MUTE = 2974103762U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID OUTRO = 4184794294U;
                 static const AkUniqueID SECONDPROG = 1664902809U;
@@ -72,12 +74,33 @@ namespace AK
             } // namespace STATE
         } // namespace COMPLETIONPROGRESS
 
+        namespace MAINMENUSTATES
+        {
+            static const AkUniqueID GROUP = 1323406209U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MUTE = 2974103762U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SUDOKUONE = 3655650978U;
+                static const AkUniqueID SUDOKUTWO = 3508639284U;
+            } // namespace STATE
+        } // namespace MAINMENUSTATES
+
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID MUSICVOLUME = 2346531308U;
+        static const AkUniqueID SFXVOLUME = 988953028U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID FUSIONSFX = 3719156526U;
+        static const AkUniqueID MAINMENUSBK = 2960854487U;
         static const AkUniqueID METALSFX = 3834709199U;
         static const AkUniqueID SUDOKU1BGMUSIC = 2511829303U;
         static const AkUniqueID SUDOKU2BGMUSIC = 3503075318U;
@@ -86,6 +109,8 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSICBUS = 2886307548U;
+        static const AkUniqueID SFXBUS = 3803850708U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

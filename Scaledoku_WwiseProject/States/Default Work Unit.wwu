@@ -19,6 +19,15 @@
 								<State Name="SeventhProg" ID="{9FA92145-1E9E-4EAC-9498-9CB1AB5480C5}"/>
 								<State Name="Outro" ID="{EAD7F86E-31EF-4F81-9A91-5E0EFE69809A}"/>
 								<State Name="Succes" ID="{98D67268-5D85-4910-863E-B044040B5F3B}"/>
+								<State Name="Mute" ID="{16BD844F-DC63-4656-AE88-C03FAFF42D36}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="MainMenuStates" ID="{DFFF2F33-88DB-491E-9BB3-A4F2DA55F827}">
+							<ChildrenList>
+								<State Name="None" ID="{1D7E4DCA-07DD-4E81-B28D-F8330FEBB9E9}"/>
+								<State Name="SudokuOne" ID="{E7D8E5BE-A914-4DEB-A9A5-1B15587B765F}"/>
+								<State Name="SudokuTwo" ID="{97AACF8A-B53E-4F6A-9451-DA073C7038CD}"/>
+								<State Name="Mute" ID="{E1415107-F542-4980-ABEA-DB71C527D153}"/>
 							</ChildrenList>
 						</StateGroup>
 					</ChildrenList>

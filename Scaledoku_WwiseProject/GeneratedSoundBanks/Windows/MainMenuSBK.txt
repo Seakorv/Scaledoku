@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4178100890	Previews			\Default Work Unit\MainMenu\Previews	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1323406209	MainMenuStates			\Default Work Unit\BGMusicStates\MainMenuStates	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MainMenuStates			
+	2974103762	Mute	MainMenuStates			
+	3508639284	SudokuTwo	MainMenuStates			
+	3655650978	SudokuOne	MainMenuStates			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	636069102	ScaledokuMetal Prog5	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\ScaledokuMetal Prog5_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu\Metal\MetalPreview\ScaledokuMetal Prog5		3921912
+	953197324	SudokuMusicFourthProg	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\SudokuMusicFourthProg_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu\Fusion\FusionPreview\SudokuMusicFourthProg		1797608
+

@@ -393,6 +393,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="MainMenu" ID="{4BAD704B-D753-417E-AB9D-6AF1010D997C}" ShortID="750317870">
+					<ChildrenList>
+						<Event Name="Previews" ID="{5921FE5B-CCFA-4E12-966B-EE729C50FA3C}">
+							<ChildrenList>
+								<Action Name="" ID="{903A1B20-3186-4B51-89A3-A07C9748B72D}" ShortID="228563008">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenu" ID="{2FF62DA7-0CA0-41C2-955E-E12E2CBDB31F}" WorkUnitID="{E0781180-11C0-4DE6-8DE7-D8542EA75954}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

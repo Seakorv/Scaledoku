@@ -17,20 +17,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	3398244714	Play_Metal_C_2			\Default Work Unit\Metal\NoteMetalSFX\Play_Metal_C_2	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51823984	Metal B2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal B2_4B16772F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal B2		48172
-	157404479	Metal F	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal F_62F92C87.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal F		48424
-	193838763	Metal C#2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C#2_651B2157.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C#2		48676
-	227630487	Metal B	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal B_19AFE443.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal B		48256
-	405060666	Metal C#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C#_B04FB155.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C#		48508
-	408753181	Metal C2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C2_3362C388.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C2		48424
-	435379396	Metal F#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal F#_4397C9F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal F#		48508
-	453720660	Metal G#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal G#_D1A91836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal G#		48256
-	607627437	Metal D#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal D#_A39D2A12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal D#		48172
-	796790971	Metal C	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C_7DB8C782.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C		48592
-	913165261	Metal A#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal A#_468C61BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal A#		48004
-	938291180	Metal A	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal A_293981AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal A		48256
-	1017037689	Metal G	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal G_D29F61A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal G		48424
-	1027454081	Metal D	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal D_4E6882DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal D		48592
-	1067093970	Metal E	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal E_6E7E86FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal E		48256
-	1073564523	ErheMetal	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal Erhe_5F892ED4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\ErheMetal		283788
+	51823984	Metal B2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal B2_D35969AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal B2		48172
+	157404479	Metal F	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal F_060AFF06.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal F		48424
+	193838763	Metal C#2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C#2_9052A913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C#2		48676
+	227630487	Metal B	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal B_AFA4BB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal B		48256
+	405060666	Metal C#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C#_C4E83A00.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C#		48508
+	408753181	Metal C2	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C2_1166437C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C2		48424
+	435379396	Metal F#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal F#_CE2F5C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal F#		48508
+	453720660	Metal G#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal G#_28234FE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal G#		48256
+	607627437	Metal D#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal D#_48A301A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal D#		48172
+	796790971	Metal C	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal C_898C7BD1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal C		48592
+	913165261	Metal A#	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal A#_48C8A0E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal A#		48004
+	938291180	Metal A	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal A_9161D6DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal A		48256
+	1017037689	Metal G	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal G_8D248BFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal G		48424
+	1027454081	Metal D	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal D_1A774403.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal D		48592
+	1067093970	Metal E	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal E_37E9B7CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\Notes\Metal E		48256
+	1073564523	ErheMetal	Y:\Unity\Scaledoku\Scaledoku_WwiseProject\.cache\Windows\SFX\Metal Erhe_ED55F594.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal\ErheMetal		283788
 
