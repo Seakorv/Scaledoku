@@ -30,11 +30,17 @@ public class MainMenu : MonoBehaviour
         menuState = MainMenuStates.SudokuOne;
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) OpenSettings();
+    }
+
     public void LoadSudoku(int sudokuSceneIndex)
     {
         ChangeMenuState(MainMenuStates.Mute);
         AkSoundEngine.StopAll();
-        SceneManager.LoadScene(sudokuSceneIndex);
+        currentSudokuIndex = 0;
+        SceneManager.LoadSceneAsync(sudokuSceneIndex);
     }
 
     public void QuitGame()

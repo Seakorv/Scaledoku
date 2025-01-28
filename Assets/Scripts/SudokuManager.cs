@@ -103,7 +103,7 @@ public class SudokuManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
+        if (Input.GetKeyDown(KeyCode.Escape)) OpenMenu();
     }
 
     public IEnumerator GenerateSudoku()
@@ -207,8 +207,8 @@ public class SudokuManager : MonoBehaviour
             if (!legal) errorSFX.Post(gameObject);
             if (legal) 
             {
-                if (proposedNote != 0) howManyZeros--;
-                else howManyZeros++;
+                if (proposedNote != 0 && tile.Note == 0) howManyZeros--;
+                else if (proposedNote == 0) howManyZeros++;
                 UpdateProgress();
                 tile.ChangeNote(proposedNote);
                 bool setCompleted = false;

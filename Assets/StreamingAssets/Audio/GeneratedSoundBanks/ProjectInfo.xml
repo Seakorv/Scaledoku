@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
-	<Project Name="Scaledoku_WwiseProject" GUID="{63A2B02E-5B2B-4576-B56C-A8A1D78CC07B}" Generator="2023.1.4.8496"/>
+	<Project Name="Scaledoku_WwiseProject" GUID="{63A2B02E-5B2B-4576-B56C-A8A1D78CC07B}" Generator="2023.1.2.8444"/>
 	<CacheRoot>../../../../Scaledoku_WwiseProject/.cache</CacheRoot>
 	<Platforms>
 		<Platform Name="Mac" GUID="{53295778-B741-4D56-97E5-941632ED7AA2}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Scaledoku_WwiseProject/GeneratedSoundBanks/Mac"/>
@@ -9,5 +9,5 @@
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{E43B3637-7426-4B5B-888B-BBE956CF8F36}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{FEEDC0D5-4C20-37B0-B90F-40119628F0F6}</FileHash>
+	<FileHash>{6573B4D1-4E85-28AB-2241-4375CE0D1A8D}</FileHash>
 </ProjectInfo>

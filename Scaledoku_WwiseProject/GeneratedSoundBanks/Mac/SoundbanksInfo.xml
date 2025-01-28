@@ -199,7 +199,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2960854487" Type="User" Language="SFX" Hash="{CD9770D1-8F00-1CD8-86E2-02BF6729D31B}">
+		<SoundBank Id="2960854487" Type="User" Language="SFX" Hash="{38E3455C-310D-85B3-D3DF-798DF712CAF9}">
 			<ShortName>MainMenuSBK</ShortName>
 			<Path>MainMenuSBK.bnk</Path>
 			<Media>
@@ -674,5 +674,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F3F0D09D-34E1-A36A-9642-4C50EAC7E6F1}</FileHash>
+	<FileHash>{37CA72CE-69BF-39BB-7854-F1004EC286CE}</FileHash>
 </SoundBanksInfo>

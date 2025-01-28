@@ -1,0 +1,37 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1323406209	MainMenuStates			\Default Work Unit\BGMusicStates\MainMenuStates	
+	4243768110	CompletionProgress			\Default Work Unit\BGMusicStates\CompletionProgress	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MainMenuStates			
+	2974103762	Mute	MainMenuStates			
+	3508639284	SudokuTwo	MainMenuStates			
+	3655650978	SudokuOne	MainMenuStates			
+	626838023	Succes	CompletionProgress			
+	748895195	None	CompletionProgress			
+	884433284	ThirdProg	CompletionProgress			
+	1058504336	SeventhProg	CompletionProgress			
+	1281810935	Start	CompletionProgress			
+	1664902809	SecondProg	CompletionProgress			
+	1734000337	ZeroP	CompletionProgress			
+	1815936827	SixthProg	CompletionProgress			
+	2974103762	Mute	CompletionProgress			
+	3049823040	FifthProg	CompletionProgress			
+	3169234081	FourthProg	CompletionProgress			
+	3337710501	FirstProg	CompletionProgress			
+	4184794294	Outro	CompletionProgress			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\VolumeRTPC\SFXVolume	
+	2346531308	MusicVolume			\Default Work Unit\VolumeRTPC\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\VolumeRTPC\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3803850708	SFXBus			\Default Work Unit\Master Audio Bus\SFXBus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

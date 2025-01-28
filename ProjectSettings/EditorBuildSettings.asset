@@ -15,6 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SudokuPhrygian.unity
     guid: c4bdb55b468a6441695f80e248754946
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 69ae3c7f8a5c3440aa0d790b91c9ed24, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ee9fd311ec0ab496185d407977d7eaad, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: f41d902c4942e4fa0a9351c9dc2a876e, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1969d78c84a444f809820e9fdf97ee37, type: 2}

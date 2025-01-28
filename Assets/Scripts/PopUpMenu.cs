@@ -21,7 +21,7 @@ public class PopUpMenu : MonoBehaviour
     {
         SudokuManager.sudokuInstance.SetMuteState();
         AkSoundEngine.StopAll();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadSceneAsync(0);
     }
 
     public void ExitGame()
