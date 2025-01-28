@@ -1,5 +1,5 @@
 # Scaledoku
 
-This is a sudoku game without numbers. Every number is replaced with a note which belongs to a specific scale.
-The game starts with only chromatic scale and background music. Player needs to figure out the scale of the song which
-will unlock the sudoku. Sudoku works like a normal sudoku, but it doesn't allow illegal moves. Notes can be listened by pressing them and you can also listen the rows/columns/boxes from their playbuttons. The background music evolves as the sudoku's solution will progress.
+Scaledoku is a game made with Untiy. The game works like a basic sudoku, but the numbers are replaced with a note from a chosen scale. Player has to quess the scale first by listening the background music to unlock the sudoku. The "numbers" are notes 1-9, from prime to ninth. The background music evolves as the sudoku will progress.
+
+The game doesn't yet work on mobile. There is no .exe file in github yet, so to run the game you'll have to download the Unity project and compile it.
